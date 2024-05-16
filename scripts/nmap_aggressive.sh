@@ -7,4 +7,4 @@ if [ -z "$ADDRESS" ]; then
 fi
 
 # Agressive scan
-sudo nmap -A ---exclude-ports 65535 -p0-65535 "$ADDRESS" >nmap-aggressive.txt 2>&1
+sudo nmap -A --exclude-ports 65535 -p0-65535 "$ADDRESS" >nmap-aggressive.txt 2>&1

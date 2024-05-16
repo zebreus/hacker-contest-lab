@@ -1,0 +1,19 @@
+#### TCP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-05-16 11:50 CEST
+Nmap scan report for 10.2.17.4
+Host is up (0.014s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 26.52 seconds
+#### UDP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-05-16 11:50 CEST
+Nmap scan report for 10.2.17.4
+Host is up (0.015s latency).
+Not shown: 999 closed udp ports (port-unreach)
+PORT   STATE         SERVICE
+68/udp open|filtered dhcpc
+
+Nmap done: 1 IP address (1 host up) scanned in 1008.66 seconds
