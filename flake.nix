@@ -30,6 +30,8 @@
               imagemagick
               nmap
               bash
+              metasploit
+              armitage
             ];
           };
         }
