@@ -1,0 +1,4 @@
+= hacker-contest-lab
+Notes and stuff for the hacker-contest course at h_da
+
+WARNING: Spoilers ahead! Don't read if you want to do the lab by yourself or you'll learn nothing
