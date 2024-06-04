@@ -1,6 +1,6 @@
-Starting Nmap 7.94 ( https://nmap.org ) at 2024-05-16 12:26 CEST
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-04 18:21 CEST
 Nmap scan report for 10.2.17.4
-Host is up (0.012s latency).
+Host is up (0.0057s latency).
 Not shown: 65533 closed tcp ports (reset)
 PORT    STATE SERVICE   VERSION
 22/tcp  open  ssh       OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
@@ -9,39 +9,39 @@ PORT    STATE SERVICE   VERSION
 |   256 e9:ab:3b:85:e8:e3:47:8a:8f:a9:9a:7a:f5:d2:76:72 (ECDSA)
 |_  256 ba:d1:da:2b:01:3e:9d:5d:37:e0:ab:b3:a4:91:10:fb (ED25519)
 443/tcp open  ssl/https nginx/1.4.7
-| tls-nextprotoneg: 
-|_  http/1.1
-|_ssl-date: 2024-05-09T15:10:30+00:00; -6d19h17m26s from scanner time.
-|_http-title: 400 The plain HTTP request was sent to HTTPS port
-| ssl-cert: Subject: commonName=www.example.com/organizationName=Dis/stateOrProvinceName=Denial/countryName=US
-| Not valid before: 2024-05-08T15:12:04
-|_Not valid after:  2025-05-08T15:12:04
+|_http-server-header: nginx/1.4.7
 | sslv2: 
 |   SSLv2 supported
 |_  ciphers: none
-|_http-server-header: nginx/1.4.7
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+|_ssl-date: 2024-05-21T06:03:39+00:00; -14d10h18m31s from scanner time.
+| ssl-cert: Subject: commonName=www.example.com/organizationName=Dis/stateOrProvinceName=Denial/countryName=US
+| Not valid before: 2024-05-08T15:12:04
+|_Not valid after:  2025-05-08T15:12:04
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 TCP/IP fingerprint:
-OS:SCAN(V=7.94%E=4%D=5/16%OT=22%CT=1%CU=32389%PV=Y%DS=2%DC=T%G=Y%TM=6645DFA
-OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=8)OPS
-OS:(O1=M578ST11NW7%O2=M578ST11NW7%O3=M578NNT11NW7%O4=M578ST11NW7%O5=M578ST1
-OS:1NW7%O6=M578ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN
-OS:(R=Y%DF=Y%T=40%W=7210%O=M578NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
-OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
-OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
-OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%
-OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+OS:SCAN(V=7.94%E=4%D=6/4%OT=22%CT=1%CU=34264%PV=Y%DS=2%DC=T%G=Y%TM=665F3F32
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=8)OPS(
+OS:O1=M578ST11NW7%O2=M578ST11NW7%O3=M578NNT11NW7%O4=M578ST11NW7%O5=M578ST11
+OS:NW7%O6=M578ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(
+OS:R=Y%DF=Y%T=40%W=7210%O=M578NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%R
+OS:UCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
 
 Network Distance: 2 hops
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Host script results:
-|_clock-skew: -6d19h17m26s
+|_clock-skew: -14d10h18m31s
 
-TRACEROUTE (using port 53/tcp)
-HOP RTT      ADDRESS
-1   12.92 ms 10.1.0.1
-2   13.00 ms 10.2.17.4
+TRACEROUTE (using port 554/tcp)
+HOP RTT     ADDRESS
+1   6.64 ms 10.1.0.1
+2   6.70 ms 10.2.17.4
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 72.25 seconds
+Nmap done: 1 IP address (1 host up) scanned in 32.82 seconds

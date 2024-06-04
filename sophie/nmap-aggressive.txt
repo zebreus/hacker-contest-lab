@@ -1,0 +1,40 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-04 18:24 CEST
+Nmap scan report for 10.2.17.9
+Host is up (0.0055s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 62:54:d0:cd:81:c9:6f:f6:6f:9f:c4:0b:de:25:d3:18 (RSA)
+|   256 09:c1:8f:38:02:a4:88:94:06:24:60:ad:09:af:76:32 (ECDSA)
+|_  256 3f:74:72:4b:bb:0e:2d:81:06:79:dc:d1:2d:4f:e4:90 (ED25519)
+8000/tcp open  jdwp    Java Debug Wire Protocol (Reference Implementation) version 1.8 1.8.0_252
+|_jdwp-info: ERROR: Script execution failed (use -d to debug)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94%E=4%D=6/4%OT=22%CT=1%CU=43319%PV=Y%DS=2%DC=T%G=Y%TM=665F3FD2
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=8)OPS(
+OS:O1=M578ST11NW7%O2=M578ST11NW7%O3=M578NNT11NW7%O4=M578ST11NW7%O5=M578ST11
+OS:NW7%O6=M578ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(
+OS:R=Y%DF=Y%T=40%W=7210%O=M578NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%R
+OS:UCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 5900/tcp)
+HOP RTT     ADDRESS
+1   6.00 ms 10.1.0.1
+2   6.03 ms 10.2.17.9
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.89 seconds

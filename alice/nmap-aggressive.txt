@@ -1,6 +1,6 @@
-Starting Nmap 7.94 ( https://nmap.org ) at 2024-05-16 12:26 CEST
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-04 18:21 CEST
 Nmap scan report for 10.2.17.3
-Host is up (0.013s latency).
+Host is up (0.0084s latency).
 Not shown: 65523 closed tcp ports (reset)
 PORT     STATE SERVICE VERSION
 6660/tcp open  irc     UnrealIRCd
@@ -17,23 +17,23 @@ PORT     STATE SERVICE VERSION
 6697/tcp open  irc     UnrealIRCd
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 TCP/IP fingerprint:
-OS:SCAN(V=7.94%E=4%D=5/16%OT=6660%CT=1%CU=42755%PV=Y%DS=2%DC=T%G=Y%TM=6645E
-OS:0CD%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=8)O
-OS:PS(O1=M578ST11NW0%O2=M578ST11NW0%O3=M578NNT11NW0%O4=M578ST11NW0%O5=M578S
-OS:T11NW0%O6=M578ST11)WIN(W1=1C48%W2=1C48%W3=1C48%W4=1C48%W5=1C48%W6=1C48)E
-OS:CN(R=Y%DF=Y%T=40%W=1C84%O=M578NNSNW0%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
-OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
-OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
-OS:%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=
-OS:G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+OS:SCAN(V=7.94%E=4%D=6/4%OT=6660%CT=1%CU=40547%PV=Y%DS=2%DC=T%G=Y%TM=665F3F
+OS:11%P=x86_64-pc-linux-gnu)SEQ(SP=F7%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=8)OPS
+OS:(O1=M578ST11NW0%O2=M578ST11NW0%O3=M578NNT11NW0%O4=M578ST11NW0%O5=M578ST1
+OS:1NW0%O6=M578ST11)WIN(W1=1C48%W2=1C48%W3=1C48%W4=1C48%W5=1C48%W6=1C48)ECN
+OS:(R=Y%DF=Y%T=40%W=1C84%O=M578NNSNW0%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%
+OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
 
 Network Distance: 2 hops
 Service Info: Host: irc.ircd3281.com
 
-TRACEROUTE (using port 143/tcp)
+TRACEROUTE (using port 587/tcp)
 HOP RTT      ADDRESS
-1   15.47 ms 10.1.0.1
-2   15.57 ms 10.2.17.3
+1   20.64 ms 10.1.0.1
+2   20.70 ms 10.2.17.3
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 360.74 seconds
+Nmap done: 1 IP address (1 host up) scanned in 22.40 seconds
