@@ -1,0 +1,14 @@
+   655698     60 -rwsr-xr-x   1 root     root        61240 May  8 16:38 /bin/ping
+   655417     40 -rwsr-xr-x   1 root     root        40536 May  8 16:38 /bin/su
+   655498     44 -rwsr-xr-x   1 root     root        44304 May  8 16:38 /bin/mount
+   655581     32 -rwsr-xr-x   1 root     root        31720 May  8 16:38 /bin/umount
+   657172     32 -rwsr-xr-x   1 root     root        30800 May  8 16:38 /bin/fusermount
+   786455    140 -rwsr-xr-x   1 root     root       140944 May  8 16:38 /usr/bin/sudo
+   793402     60 -rwsr-xr-x   1 root     root        59680 May  8 16:38 /usr/bin/passwd
+   793400     76 -rwsr-xr-x   1 root     root        75792 May  8 16:38 /usr/bin/gpasswd
+   787029     52 -rwsr-xr-x   1 root     root        50040 May  8 16:38 /usr/bin/chfn
+   793396     40 -rwsr-xr-x   1 root     root        40504 May  8 16:38 /usr/bin/chsh
+   787829     40 -rwsr-xr-x   1 root     root        40312 May  8 16:38 /usr/bin/newgrp
+      121     44 -rwsr-xr--   1 root     messagebus    42992 May  8 16:38 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+     1309     12 -rwsr-xr-x   1 root     root          10232 May  8 16:38 /usr/lib/eject/dmcrypt-get-device
+   133056    432 -rwsr-xr-x   1 root     root         440728 May  8 16:38 /usr/lib/openssh/ssh-keysign

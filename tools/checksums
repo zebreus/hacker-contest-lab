@@ -1,0 +1,20 @@
+
+# Statix pkg
+
+# tcpdump-4.7.4
+# Tue Jun 16 03:10:13 CDT 2015
+
+DESTDIR=/bin
+
+
+
+
+installd(){
+mkdir -p "$DESTDIR"
+# 999895350d720c755cf749542b0f4a8b  tcpdump
+install tcpdump "$DESTDIR"
+}
+removed(){
+# 999895350d720c755cf749542b0f4a8b  tcpdump
+rm "$DESTDIR"/tcpdump
+}

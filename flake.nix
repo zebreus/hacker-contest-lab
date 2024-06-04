@@ -17,7 +17,14 @@
           name = "hacker-contest-qualification";
           packages.default = pkgs.mkShell {
             buildInputs = with pkgs; [
-              python3
+              (pkgs.python3.withPackages (python-pkgs: [
+                python-pkgs.beautifulsoup4
+                python-pkgs.types-beautifulsoup4
+                python-pkgs.random2
+                python-pkgs.requests
+                python-pkgs.lxml
+                python-pkgs.lxml-stubs
+              ]))
               gnumake
               nixpkgs-fmt
               nil
@@ -32,6 +39,8 @@
               bash
               metasploit
               armitage
+              joomscan
+              dirb
             ];
           };
         }

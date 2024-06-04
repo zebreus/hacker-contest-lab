@@ -1,0 +1,1048 @@
+echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ls -l /usr/local/sbin
+total 0
+ls -l /usr/local/bin
+total 0
+ls -l /usr/sbin
+total 26292
+lrwxrwxrwx 1 root root        7 Oct 13  2019 a2disconf -> a2enmod
+lrwxrwxrwx 1 root root        7 Oct 13  2019 a2dismod -> a2enmod
+lrwxrwxrwx 1 root root        7 Oct 13  2019 a2dissite -> a2enmod
+lrwxrwxrwx 1 root root        7 Oct 13  2019 a2enconf -> a2enmod
+-rwxr-xr-x 1 root root    16276 May  8 16:38 a2enmod
+lrwxrwxrwx 1 root root        7 Oct 13  2019 a2ensite -> a2enmod
+-rwxr-xr-x 1 root root     9870 May  8 16:38 a2query
+-rwxr-xr-x 1 root root    10472 May  8 16:38 accessdb
+-rwxr-xr-x 1 root root      860 May  8 16:38 add-shell
+-rwxr-xr-x 1 root root     3078 May  8 16:38 addgnupghome
+lrwxrwxrwx 1 root root        7 Jun 27  2016 addgroup -> adduser
+-rwxr-xr-x 1 root root    34509 May  8 16:38 adduser
+-rwxr-xr-x 1 root root   666760 May  8 16:38 apache2
+-rwxr-xr-x 1 root root     7222 May  8 16:38 apache2ctl
+lrwxrwxrwx 1 root root       10 Oct 13  2019 apachectl -> apache2ctl
+-rwxr-xr-x 1 root root     2219 May  8 16:38 applygnupgdefaults
+-rwxr-xr-x 1 root root    47968 May  8 16:38 arpd
+-rwxr-xr-x 1 root root    13542 May  8 16:38 aspell-autobuildhash
+-rwxr-xr-x 1 root root    19272 May  8 16:38 biosdecode
+-rwxr-xr-x 1 root root      952 May  8 16:38 check_forensic
+-rwxr-xr-x 1 root root    59184 May  8 16:38 chgpasswd
+-rwxr-xr-x 1 root root    51096 May  8 16:38 chpasswd
+-rwxr-xr-x 1 root root    39816 May  8 16:38 chroot
+lrwxrwxrwx 1 root root        4 Mar 17  2021 cpgr -> cppw
+-rwxr-xr-x 1 root root    53248 May  8 16:38 cppw
+-rwxr-xr-x 1 root root    48616 May  8 16:38 cron
+lrwxrwxrwx 1 root root        7 Jun 27  2016 delgroup -> deluser
+-rwxr-xr-x 1 root root    15798 May  8 16:38 deluser
+-rwxr-xr-x 1 root root   104952 May  8 16:38 dmidecode
+-rwxr-xr-x 1 root root     3604 May  8 16:38 dpkg-preconfigure
+-rwxr-xr-x 1 root root     4335 May  8 16:38 dpkg-reconfigure
+-rwxr-xr-x 1 root root    10312 May  8 16:38 e2freefrag
+-rwxr-xr-x 1 root root    22600 May  8 16:38 e4crypt
+-rwxr-xr-x 1 root root    26616 May  8 16:38 e4defrag
+-rwxr-xr-x 1 root root    31400 May  8 16:38 fdformat
+-rwxr-xr-x 1 root root    14352 May  8 16:38 filefrag
+-rwxr-xr-x 1 root root    52008 May  8 16:38 genl
+-rwxr-xr-x 1 root root    59248 May  8 16:38 groupadd
+-rwxr-xr-x 1 root root    54936 May  8 16:38 groupdel
+-rwxr-xr-x 1 root root    55128 May  8 16:38 groupmems
+-rwxr-xr-x 1 root root    69856 May  8 16:38 groupmod
+-rwxr-xr-x 1 root root    55064 May  8 16:38 grpck
+-rwxr-xr-x 1 root root    50840 May  8 16:38 grpconv
+-rwxr-xr-x 1 root root    50840 May  8 16:38 grpunconv
+lrwxrwxrwx 1 root root       35 Jun 12  2019 grub-bios-setup -> ../lib/grub/i386-pc/grub-bios-setup
+-rwxr-xr-x 1 root root  1020496 May  8 16:38 grub-install
+-rwxr-xr-x 1 root root   796544 May  8 16:38 grub-macbless
+-rwxr-xr-x 1 root root     8010 May  8 16:38 grub-mkconfig
+-rwxr-xr-x 1 root root   209376 May  8 16:38 grub-mkdevicemap
+-rwxr-xr-x 1 root root   809152 May  8 16:38 grub-probe
+-rwxr-xr-x 1 root root     4110 May  8 16:38 grub-reboot
+-rwxr-xr-x 1 root root     3560 May  8 16:38 grub-set-default
+-rwxr-xr-x 1 root root    10232 May  8 16:38 httxt2dbm
+-rwxr-xr-x 1 root root    23208 May  8 16:38 iconvconfig
+-rwxr-xr-x 1 root root     4551 May  8 16:38 install-sgmlcatalog
+-rwxr-xr-x 1 root root    18110 May  8 16:38 invoke-rc.d
+lrwxrwxrwx 1 root root       14 Apr 12  2017 ip6tables-apply -> iptables-apply
+-rwxr-xr-x 1 root root     7016 May  8 16:38 iptables-apply
+-rwxr-xr-x 1 root root    56712 May  8 16:38 irqbalance
+-rwxr-xr-x 1 root root    15757 May  8 16:38 ispell-autobuildhash
+-rwxr-xr-x 1 root root     2588 May  8 16:38 laptop-detect
+-rwxr-xr-x 1 root root    31448 May  8 16:38 ldattach
+-rwxr-xr-x 1 root root     1534 May  8 16:38 locale-gen
+-rwxr-xr-x 1 root root    77080 May  8 16:38 logrotate
+-rwxr-xr-x 1 root root     3875 May  8 16:38 make-ssl-cert
+-rwxr-xr-x 1 root root    10255 May  8 16:38 mkinitramfs
+-rwxr-xr-x 1 root root    10232 May  8 16:38 mklost+found
+-rwxr-xr-x 1 root root 17857608 May  8 16:38 mysqld
+-rwxr-xr-x 1 root root    80312 May  8 16:38 newusers
+-rwxr-xr-x 1 root root    14328 May  8 16:38 nfnl_osf
+-rwxr-xr-x 1 root root     6136 May  8 16:38 nologin
+-rwxr-xr-x 1 root root    10376 May  8 16:38 ownership
+-rwxr-xr-x 1 root root    19490 May  8 16:38 pam-auth-update
+-rwxr-xr-x 1 root root     2890 May  8 16:38 pam_getenv
+-rwxr-xr-x 1 root root    10616 May  8 16:38 pam_timestamp_check
+lrwxrwxrwx 1 root root        9 Jan  5  2018 php5dismod -> php5enmod
+-rwxr-xr-x 1 root root     6363 May  8 16:38 php5enmod
+-rwxr-xr-x 1 root root     5169 May  8 16:38 php5query
+-rwxr-xr-x 1 root root    51032 May  8 16:38 pwck
+-rwxr-xr-x 1 root root    46840 May  8 16:38 pwconv
+-rwxr-xr-x 1 root root    42720 May  8 16:38 pwunconv
+-rwxr-xr-x 1 root root  1152584 May  8 16:38 qemu-ga
+-rwxr-xr-x 1 root root    19032 May  8 16:38 readprofile
+-rwxr-xr-x 1 root root     2932 May  8 16:38 remove-default-ispell
+-rwxr-xr-x 1 root root     2931 May  8 16:38 remove-default-wordlist
+-rwxr-xr-x 1 root root      904 May  8 16:38 remove-shell
+lrwxrwxrwx 1 root root       21 Feb  7  2018 rmt -> /etc/alternatives/rmt
+-rwxr-xr-x 1 root root    56352 May  8 16:38 rmt-tar
+-rwxr-xr-x 1 root root   651576 May  8 16:38 rsyslogd
+-rwxr-xr-x 1 root root    43840 May  8 16:38 rtcwake
+-rwxr-xr-x 1 root root    10320 May  8 16:38 safe_finger
+-rwxr-xr-x 1 root root     3303 May  8 16:38 select-default-ispell
+-rwxr-xr-x 1 root root     3284 May  8 16:38 select-default-wordlist
+-rwxr-xr-x 1 root root    10061 May  8 16:38 service
+-rwxr-xr-x 1 root root    10608 May  8 16:38 setvesablank
+-rwxr-xr-x 1 root root     2415 May  8 16:38 split-logfile
+-rwxr-xr-x 1 root root   791024 May  8 16:38 sshd
+-rwxr-xr-x 1 root root      936 May  8 16:38 tarcat
+-rwxr-xr-x 1 root root    10240 May  8 16:38 tcpd
+-rwxr-xr-x 1 root root    22664 May  8 16:38 tcpdchk
+-rwxr-xr-x 1 root root    18472 May  8 16:38 tcpdmatch
+lrwxrwxrwx 1 root root       31 Feb  7  2018 tcptraceroute -> /etc/alternatives/tcptraceroute
+-rwxr-xr-x 1 root root     1594 May  8 16:38 tcptraceroute.db
+lrwxrwxrwx 1 root root       33 Feb  7  2018 traceroute -> /etc/alternatives/traceroute.sbin
+-rwxr-xr-x 1 root root    10240 May  8 16:38 try-from
+-rwxr-xr-x 1 root root    27248 May  8 16:38 tunelp
+-rwxr-xr-x 1 root root      106 May  8 16:38 tzconfig
+-rwxr-xr-x 1 root root     4963 May  8 16:38 update-ca-certificates
+-rwxr-xr-x 1 root root     9366 May  8 16:38 update-catalog
+lrwxrwxrwx 1 root root       24 Oct 10  2016 update-default-aspell -> update-dictcommon-aspell
+-rwxr-xr-x 1 root root     9910 May  8 16:38 update-default-ispell
+-rwxr-xr-x 1 root root     7680 May  8 16:38 update-default-wordlist
+-rwxr-xr-x 1 root root     1028 May  8 16:38 update-dictcommon-aspell
+-rwxr-xr-x 1 root root      782 May  8 16:38 update-dictcommon-hunspell
+-rwxr-xr-x 1 root root       64 May  8 16:38 update-grub
+lrwxrwxrwx 1 root root       11 Jun 12  2019 update-grub2 -> update-grub
+-rwxr-xr-x 1 root root     8217 May  8 16:38 update-initramfs
+-rwxr-xr-x 1 root root     3063 May  8 16:38 update-locale
+-rwxr-xr-x 1 root root     9053 May  8 16:38 update-mime
+-rwxr-xr-x 1 root root    31136 May  8 16:38 update-passwd
+-rwxr-xr-x 1 root root     2905 May  8 16:38 update-pciids
+-rwxr-xr-x 1 root root    16062 May  8 16:38 update-rc.d
+-rwxr-xr-x 1 root root    17284 May  8 16:38 update-xmlcatalog
+-rwxr-xr-x 1 root root     1524 May  8 16:38 upgrade-from-grub-legacy
+-rwxr-xr-x 1 root root   122152 May  8 16:38 useradd
+-rwxr-xr-x 1 root root    84472 May  8 16:38 userdel
+-rwxr-xr-x 1 root root   121960 May  8 16:38 usermod
+-rwxr-xr-x 1 root root     1773 May  8 16:38 validlocale
+-rwxr-xr-x 1 root root     6392 May  8 16:38 vcstime
+lrwxrwxrwx 1 root root        4 Mar 17  2021 vigr -> vipw
+-rwxr-xr-x 1 root root    61664 May  8 16:38 vipw
+-rwxr-xr-x 1 root root   205144 May  8 16:38 visudo
+-rwxr-xr-x 1 root root    14616 May  8 16:38 vpddecode
+-rwxr-xr-x 1 root root    10232 May  8 16:38 zerofree
+-rwxr-xr-x 1 root root    43560 May  8 16:38 zic
+ls -l /usr/bin
+total 210216
+lrwxrwxrwx 1 root root           8 Jan 24  2017 2to3 -> 2to3-2.7
+-rwxr-xr-x 1 root root          96 May  8 16:38 2to3-2.7
+-rwxr-xr-x 1 root root          96 May  8 16:38 2to3-3.5
+-rwxr-xr-x 1 root root      152232 May  8 16:38 VGAuthService
+-rwxr-xr-x 1 root root       52008 May  8 16:38 [
+-rwxr-xr-x 1 root root       51384 May  8 16:38 ab
+-rwxr-xr-x 1 root root       23072 May  8 16:38 addpart
+lrwxrwxrwx 1 root root           6 Dec 13  2016 apropos -> whatis
+-rwxr-xr-x 1 root root       14424 May  8 16:38 apt
+-rwxr-xr-x 1 root root       80032 May  8 16:38 apt-cache
+-rwxr-xr-x 1 root root       22688 May  8 16:38 apt-cdrom
+-rwxr-xr-x 1 root root       22616 May  8 16:38 apt-config
+-rwxr-xr-x 1 root root       22688 May  8 16:38 apt-extracttemplates
+-rwxr-xr-x 1 root root      243872 May  8 16:38 apt-ftparchive
+-rwxr-xr-x 1 root root       43168 May  8 16:38 apt-get
+-rwxr-xr-x 1 root root       26269 May  8 16:38 apt-key
+-rwxr-xr-x 1 root root        9096 May  8 16:38 apt-listchanges
+-rwxr-xr-x 1 root root       43168 May  8 16:38 apt-mark
+-rwxr-xr-x 1 root root       39000 May  8 16:38 apt-sortpkgs
+-rwxr-xr-x 1 root root       35592 May  8 16:38 arch
+-rwxr-xr-x 1 root root     4994336 May  8 16:38 aria_chk
+-rwxr-xr-x 1 root root     4783936 May  8 16:38 aria_dump_log
+-rwxr-xr-x 1 root root     4800480 May  8 16:38 aria_ftdump
+-rwxr-xr-x 1 root root     4825664 May  8 16:38 aria_pack
+-rwxr-xr-x 1 root root     4953184 May  8 16:38 aria_read_log
+lrwxrwxrwx 1 root root          21 Feb  7  2018 awk -> /etc/alternatives/awk
+-rwxr-xr-x 1 root root       56200 May  8 16:38 b2sum
+-rwxr-xr-x 1 root root       39720 May  8 16:38 base32
+-rwxr-xr-x 1 root root       39720 May  8 16:38 base64
+-rwxr-xr-x 1 root root       31464 May  8 16:38 basename
+-rwxr-xr-x 1 root root        7120 May  8 16:38 bashbug
+-rwxr-xr-x 1 root root       39328 May  8 16:38 bootctl
+-rwxr-xr-x 1 root root       10544 May  8 16:38 bsd-from
+-rwxr-sr-x 1 root tty        14768 May  8 16:38 bsd-write
+-rwxr-xr-x 1 root root       39296 May  8 16:38 buildhash
+-rwxr-xr-x 1 root root       63928 May  8 16:38 busctl
+-rwxr-xr-x 2 root root       36751 May  8 16:38 c2ph
+-rwxr-xr-x 1 root root        6885 May  8 16:38 c_rehash
+lrwxrwxrwx 1 root root           4 Apr 12  2017 cal -> ncal
+-rwxr-xr-x 1 root root       31992 May  8 16:38 calendar
+lrwxrwxrwx 1 root root           3 Dec 28  2017 captoinfo -> tic
+-rwxr-xr-x 1 root root        3302 May  8 16:38 catchsegv
+-rwxr-xr-x 1 root root       35288 May  8 16:38 catman
+-rwxr-sr-x 1 root shadow     71856 May  8 16:38 chage
+lrwxrwxrwx 1 root root          11 Feb 10  2016 chardet3 -> chardetect3
+-rwxr-xr-x 1 root root         309 May  8 16:38 chardetect3
+-rwxr-xr-x 1 root root       14336 May  8 16:38 chattr
+-rwxr-xr-x 1 root root       64520 May  8 16:38 chcon
+-rwxr-xr-x 1 root root        6136 May  8 16:38 checkgid
+-rwsr-xr-x 1 root root       50040 May  8 16:38 chfn
+-rwxr-xr-x 1 root root       31496 May  8 16:38 chrt
+-rwsr-xr-x 1 root root       40504 May  8 16:38 chsh
+-rwxr-xr-x 1 root root      149832 May  8 16:38 ckbcomp
+-rwxr-xr-x 1 root root       35592 May  8 16:38 cksum
+-rwxr-xr-x 1 root root        6136 May  8 16:38 clear
+-rwxr-xr-x 1 root root       10552 May  8 16:38 clear_console
+-rwxr-xr-x 1 root root       43768 May  8 16:38 cmp
+-rwxr-xr-x 1 root root       10520 May  8 16:38 codepage
+-rwxr-xr-x 1 root root       10536 May  8 16:38 col
+-rwxr-xr-x 1 root root       10504 May  8 16:38 colcrt
+-rwxr-xr-x 1 root root       10496 May  8 16:38 colrm
+-rwxr-xr-x 1 root root       14752 May  8 16:38 column
+-rwxr-xr-x 1 root root       39720 May  8 16:38 comm
+lrwxrwxrwx 1 root root          11 May  1  2016 compose -> run-mailcap
+-rwxr-xr-x 1 root root       12830 May  8 16:38 corelist
+-rwxr-xr-x 1 root root        7586 May  8 16:38 cpan
+-rwxr-xr-x 1 root root        7607 May  8 16:38 cpan5.24-x86_64-linux-gnu
+-rwxr-sr-x 1 root crontab    40264 May  8 16:38 crontab
+-rwxr-xr-x 1 root root       48072 May  8 16:38 csplit
+lrwxrwxrwx 1 root root           6 Nov 24  2017 ctstat -> lnstat
+-rwxr-xr-x 1 root root       43880 May  8 16:38 cut
+-rwxr-xr-x 1 root root        1380 May  8 16:38 dbilogstrip
+-rwxr-xr-x 1 root root        6206 May  8 16:38 dbiprof
+-rwxr-xr-x 1 root root        5394 May  8 16:38 dbiproxy
+-rwxr-xr-x 1 root root       10224 May  8 16:38 dbus-cleanup-sockets
+-rwxr-xr-x 1 root root      224208 May  8 16:38 dbus-daemon
+-rwxr-xr-x 1 root root       22520 May  8 16:38 dbus-monitor
+-rwxr-xr-x 1 root root       10224 May  8 16:38 dbus-run-session
+-rwxr-xr-x 1 root root       26608 May  8 16:38 dbus-send
+-rwxr-xr-x 1 root root       14320 May  8 16:38 dbus-update-activation-environment
+-rwxr-xr-x 1 root root       10224 May  8 16:38 dbus-uuidgen
+-rwxr-xr-x 1 root root       10624 May  8 16:38 deallocvt
+-rwxr-xr-x 1 root root       20142 May  8 16:38 deb-systemd-helper
+-rwxr-xr-x 1 root root        4507 May  8 16:38 deb-systemd-invoke
+-rwxr-xr-x 1 root root        2859 May  8 16:38 debconf
+-rwxr-xr-x 1 root root       11541 May  8 16:38 debconf-apt-progress
+-rwxr-xr-x 1 root root         608 May  8 16:38 debconf-communicate
+-rwxr-xr-x 1 root root        1719 May  8 16:38 debconf-copydb
+-rwxr-xr-x 1 root root         647 May  8 16:38 debconf-escape
+-rwxr-xr-x 1 root root        2935 May  8 16:38 debconf-set-selections
+-rwxr-xr-x 1 root root        1827 May  8 16:38 debconf-show
+-rwxr-xr-x 1 root root        6136 May  8 16:38 defmt-c
+-rwxr-xr-x 1 root root        6136 May  8 16:38 defmt-sh
+-rwxr-xr-x 1 root root       23072 May  8 16:38 delpart
+-rwxr-xr-x 1 root root        2550 May  8 16:38 dh_bash-completion
+-rwxr-xr-x 1 root root        9444 May  8 16:38 dh_installxmlcatalogs
+-rwxr-xr-x 1 root root        1065 May  8 16:38 dh_perl_dbi
+lrwxrwxrwx 1 root root          26 Jan 25  2017 dh_pypy -> ../share/dh-python/dh_pypy
+-rwxr-xr-x 1 root root        1056 May  8 16:38 dh_python2
+lrwxrwxrwx 1 root root          29 Jan 25  2017 dh_python3 -> ../share/dh-python/dh_python3
+-rwxr-xr-x 1 root root      146824 May  8 16:38 diff
+-rwxr-xr-x 1 root root       60360 May  8 16:38 diff3
+-rwxr-xr-x 1 root root      133288 May  8 16:38 dig
+-rwxr-xr-x 1 root root       43792 May  8 16:38 dircolors
+-rwxr-xr-x 1 root root       31464 May  8 16:38 dirname
+-rwxr-xr-x 1 root root        2927 May  8 16:38 discover-config
+-rwxr-sr-x 1 root mail       19008 May  8 16:38 dotlockfile
+-rwxr-xr-x 1 root root      293376 May  8 16:38 dpkg
+-rwxr-xr-x 1 root root      149856 May  8 16:38 dpkg-deb
+-rwxr-xr-x 1 root root      141728 May  8 16:38 dpkg-divert
+-rwxr-xr-x 1 root root       19030 May  8 16:38 dpkg-maintscript-helper
+-rwxr-xr-x 1 root root      149912 May  8 16:38 dpkg-query
+-rwxr-xr-x 1 root root      117080 May  8 16:38 dpkg-split
+-rwxr-xr-x 1 root root       71936 May  8 16:38 dpkg-statoverride
+-rwxr-xr-x 1 root root       67848 May  8 16:38 dpkg-trigger
+-rwxr-xr-x 1 root root      105640 May  8 16:38 du
+lrwxrwxrwx 1 root root          13 Feb  7  2018 dumpkeys -> /bin/dumpkeys
+lrwxrwxrwx 1 root root          11 May  1  2016 edit -> run-mailcap
+lrwxrwxrwx 1 root root          24 Feb  7  2018 editor -> /etc/alternatives/editor
+-rwxr-xr-x 1 root root       31424 May  8 16:38 eject
+-rwxr-xr-x 1 root root       41171 May  8 16:38 enc2xs
+-rwxr-xr-x 1 root root        3066 May  8 16:38 encguess
+-rwxr-xr-x 1 root root       31496 May  8 16:38 env
+-rwxr-xr-x 1 root root       35536 May  8 16:38 envsubst
+-rwxr-xr-x 1 root root      189632 May  8 16:38 eqn
+lrwxrwxrwx 1 root root          20 Feb  7  2018 ex -> /etc/alternatives/ex
+-rwxr-xr-x 1 root root       35624 May  8 16:38 expand
+-rwxr-sr-x 1 root shadow     22808 May  8 16:38 expiry
+-rwxr-xr-x 1 root root       43848 May  8 16:38 expr
+-rwxr-xr-x 1 root root       76680 May  8 16:38 factor
+-rwxr-xr-x 1 root root       18728 May  8 16:38 faillog
+-rwxr-xr-x 1 root root       27280 May  8 16:38 fallocate
+-rwxr-xr-x 1 root root       10232 May  8 16:38 fcgistarter
+-rwxr-xr-x 1 root root       85864 May  8 16:38 filan
+-rwxr-xr-x 1 root root       22792 May  8 16:38 file
+-rwxr-xr-x 1 root root        3172 May  8 16:38 file-rename
+-rwxr-xr-x 1 root root      221768 May  8 16:38 find
+-rwxr-xr-x 1 root root       12019 May  8 16:38 findaffix
+-rwxr-xr-x 1 root root       27432 May  8 16:38 flock
+-rwxr-xr-x 1 root root       39720 May  8 16:38 fmt
+-rwxr-xr-x 1 root root       35624 May  8 16:38 fold
+-rwxr-xr-x 1 root root       18512 May  8 16:38 free
+lrwxrwxrwx 1 root root          22 Feb  7  2018 from -> /etc/alternatives/from
+-rwxr-xr-x 1 root root         888 May  8 16:38 galera_new_cluster
+-rwxr-xr-x 1 root root        3358 May  8 16:38 galera_recovery
+-rwxr-xr-x 1 root root      662240 May  8 16:38 gawk
+lrwxrwxrwx 1 root root           3 Dec 13  2016 geqn -> eqn
+-rwxr-xr-x 1 root root       22904 May  8 16:38 getconf
+-rwxr-xr-x 1 root root       23872 May  8 16:38 getent
+-rwxr-xr-x 1 root root       10616 May  8 16:38 getkeycodes
+-rwxr-xr-x 1 root root       14840 May  8 16:38 getopt
+-rwxr-xr-x 1 root root       35512 May  8 16:38 gettext
+-rwxr-xr-x 1 root root        4629 May  8 16:38 gettext.sh
+-rwsr-xr-x 1 root root       75792 May  8 16:38 gpasswd
+-rwxr-xr-x 1 root root     1000808 May  8 16:38 gpg
+-rwxr-xr-x 1 root root      385672 May  8 16:38 gpg-agent
+-rwxr-xr-x 1 root root      154344 May  8 16:38 gpg-connect-agent
+-rwxr-xr-x 1 root root        3444 May  8 16:38 gpg-zip
+-rwxr-xr-x 1 root root      161192 May  8 16:38 gpgconf
+-rwxr-xr-x 1 root root       26696 May  8 16:38 gpgparsemail
+-rwxr-xr-x 1 root root       76112 May  8 16:38 gpgsplit
+-rwxr-xr-x 1 root root      420496 May  8 16:38 gpgv
+lrwxrwxrwx 1 root root           3 Dec 13  2016 gpic -> pic
+-rwxr-xr-x 1 root root      103744 May  8 16:38 groff
+-rwxr-xr-x 1 root root        2780 May  8 16:38 grog
+-rwxr-xr-x 1 root root      165600 May  8 16:38 grops
+-rwxr-xr-x 1 root root      120160 May  8 16:38 grotty
+-rwxr-xr-x 1 root root       35624 May  8 16:38 groups
+-rwxr-xr-x 1 root root      242656 May  8 16:38 grub-editenv
+-rwxr-xr-x 1 root root      676496 May  8 16:38 grub-file
+-rwxr-xr-x 1 root root      805632 May  8 16:38 grub-fstest
+-rwxr-xr-x 1 root root      238400 May  8 16:38 grub-glue-efi
+-rwxr-xr-x 1 root root        1681 May  8 16:38 grub-kbdcomp
+-rwxr-xr-x 1 root root      222032 May  8 16:38 grub-menulst2cfg
+-rwxr-xr-x 1 root root      267744 May  8 16:38 grub-mkfont
+-rwxr-xr-x 1 root root      333696 May  8 16:38 grub-mkimage
+-rwxr-xr-x 1 root root      246880 May  8 16:38 grub-mklayout
+-rwxr-xr-x 1 root root      375344 May  8 16:38 grub-mknetdir
+-rwxr-xr-x 1 root root      246944 May  8 16:38 grub-mkpasswd-pbkdf2
+-rwxr-xr-x 1 root root      238080 May  8 16:38 grub-mkrelpath
+-rwxr-xr-x 1 root root      839056 May  8 16:38 grub-mkrescue
+-rwxr-xr-x 1 root root      453504 May  8 16:38 grub-mkstandalone
+-rwxr-xr-x 1 root root      619808 May  8 16:38 grub-mount
+lrwxrwxrwx 1 root root          34 Jun 12  2019 grub-ntldr-img -> ../lib/grub/i386-pc/grub-ntldr-img
+-rwxr-xr-x 1 root root      689392 May  8 16:38 grub-render-label
+-rwxr-xr-x 1 root root      266880 May  8 16:38 grub-script-check
+-rwxr-xr-x 1 root root      636672 May  8 16:38 grub-syslinux2cfg
+lrwxrwxrwx 1 root root           3 Dec 13  2016 gtbl -> tbl
+-rwxr-xr-x 1 root root       29201 May  8 16:38 h2ph
+-rwxr-xr-x 1 root root       60814 May  8 16:38 h2xs
+lrwxrwxrwx 1 root root           7 Apr 12  2017 hd -> hexdump
+-rwxr-xr-x 1 root root       43848 May  8 16:38 head
+-rwxr-xr-x 1 root root        2514 May  8 16:38 helpztags
+-rwxr-xr-x 1 root root       27248 May  8 16:38 hexdump
+-rwxr-xr-x 1 root root      117192 May  8 16:38 host
+-rwxr-xr-x 1 root root       31464 May  8 16:38 hostid
+-rwxr-xr-x 1 root root       18776 May  8 16:38 hostnamectl
+-rwxr-xr-x 1 root root       30720 May  8 16:38 htcacheclean
+-rwxr-xr-x 1 root root       18424 May  8 16:38 htdbm
+-rwxr-xr-x 1 root root       10232 May  8 16:38 htdigest
+-rwxr-xr-x 1 root root       18424 May  8 16:38 htpasswd
+lrwxrwxrwx 1 root root           7 Mar  7  2018 i386 -> setarch
+-rwxr-xr-x 1 root root       35200 May  8 16:38 icombine
+-rwxr-xr-x 1 root root       56328 May  8 16:38 iconv
+-rwxr-xr-x 1 root root       43944 May  8 16:38 id
+-rwxr-xr-x 1 root root        3189 May  8 16:38 igawk
+-rwxr-xr-x 1 root root       14440 May  8 16:38 ijoin
+-rwxr-xr-x 1 root root       59464 May  8 16:38 infocmp
+lrwxrwxrwx 1 root root           3 Dec 28  2017 infotocap -> tic
+-rwxr-xr-x 1 root root     3587520 May  8 16:38 innochecksum
+-rwxr-xr-x 1 root root      456511 May  8 16:38 innotop
+-rwxr-xr-x 1 root root      138864 May  8 16:38 install
+-rwxr-xr-x 1 root root        4370 May  8 16:38 instmodsh
+-rwxr-xr-x 1 root root       27304 May  8 16:38 ionice
+-rwxr-xr-x 1 root root       27416 May  8 16:38 ipcmk
+-rwxr-xr-x 1 root root       27264 May  8 16:38 ipcrm
+-rwxr-xr-x 1 root root       52008 May  8 16:38 ipcs
+lrwxrwxrwx 1 root root          19 Apr 12  2017 iptables-xml -> /sbin/xtables-multi
+-rwxr-xr-x 1 root root       10552 May  8 16:38 ischroot
+-rwxr-xr-x 1 root root       96728 May  8 16:38 ispell
+-rwxr-xr-x 1 root root        7222 May  8 16:38 ispell-wrapper
+-rwxr-xr-x 1 root root       47976 May  8 16:38 join
+-rwxr-xr-x 1 root root        3956 May  8 16:38 json_pp
+-rwxr-xr-x 1 root root       10632 May  8 16:38 kbdinfo
+-rwxr-xr-x 1 root root      158344 May  8 16:38 kbxutil
+-rwxr-xr-x 1 root root        3999 May  8 16:38 kernel-install
+-rwxr-xr-x 1 root root       24248 May  8 16:38 killall
+-rwxr-xr-x 1 root root       43880 May  8 16:38 last
+lrwxrwxrwx 1 root root           4 Mar  7  2018 lastb -> last
+-rwxr-xr-x 1 root root       18504 May  8 16:38 lastlog
+-rwxr-xr-x 1 root root        7786 May  8 16:38 lcf
+-rwxr-xr-x 1 root root        5395 May  8 16:38 ldd
+lrwxrwxrwx 1 root root           9 Feb  7  2018 less -> /bin/less
+lrwxrwxrwx 1 root root          13 Feb  7  2018 lessecho -> /bin/lessecho
+lrwxrwxrwx 1 root root          13 Feb  7  2018 lessfile -> /bin/lessfile
+lrwxrwxrwx 1 root root          12 Feb  7  2018 lesskey -> /bin/lesskey
+lrwxrwxrwx 1 root root          13 Feb  7  2018 lesspipe -> /bin/lesspipe
+-rwxr-xr-x 1 root root       92744 May  8 16:38 lexgrog
+lrwxrwxrwx 1 root root          21 Feb  7  2018 lft -> /etc/alternatives/lft
+-rwxr-xr-x 1 root root        2493 May  8 16:38 lft.db
+-rwxr-xr-x 1 root root       15757 May  8 16:38 libnetcfg
+-rwxr-xr-x 1 root root       10648 May  8 16:38 line
+-rwxr-xr-x 1 root root       31464 May  8 16:38 link
+-rwxr-xr-x 1 root root        1577 May  8 16:38 linux-boot-prober
+-rwxr-xr-x 1 root root        4090 May  8 16:38 linux-check-removal
+-rwxr-xr-x 1 root root        6320 May  8 16:38 linux-update-symlinks
+-rwxr-xr-x 1 root root        2696 May  8 16:38 linux-version
+lrwxrwxrwx 1 root root           7 Mar  7  2018 linux32 -> setarch
+lrwxrwxrwx 1 root root           7 Mar  7  2018 linux64 -> setarch
+-rwxr-xr-x 1 root root       19256 May  8 16:38 lnstat
+lrwxrwxrwx 1 root root          13 Feb  7  2018 loadkeys -> /bin/loadkeys
+-rwxr-xr-x 1 root root       27320 May  8 16:38 loadunimap
+-rwxr-xr-x 1 root root       38824 May  8 16:38 locale
+-rwxr-xr-x 1 root root       27048 May  8 16:38 localectl
+-rwxr-xr-x 1 root root      302784 May  8 16:38 localedef
+-rwxr-xr-x 1 root root       44472 May  8 16:38 logger
+-rwxr-xr-x 1 root root       31464 May  8 16:38 logname
+-rwxr-xr-x 1 root root       10240 May  8 16:38 logresolve
+-rwxr-xr-x 1 root root       10576 May  8 16:38 look
+-rwxr-xr-x 1 root root        2846 May  8 16:38 lorder
+-rwxr-xr-x 1 root root       10240 May  8 16:38 lsattr
+-rwxr-xr-x 1 root root        3638 May  8 16:38 lsb_release
+-rwxr-xr-x 1 root root       64712 May  8 16:38 lscpu
+-rwxr-xr-x 1 root root         625 May  8 16:38 lsinitramfs
+-rwxr-xr-x 1 root root       72824 May  8 16:38 lsipc
+-rwxr-xr-x 1 root root       36008 May  8 16:38 lslocks
+-rwxr-xr-x 1 root root       60696 May  8 16:38 lslogins
+-rwxr-xr-x 1 root root       39800 May  8 16:38 lsns
+-rwxr-xr-x 1 root root      163136 May  8 16:38 lsof
+-rwxr-xr-x 1 root root       82240 May  8 16:38 lspci
+-rwxr-xr-x 1 root root        1081 May  8 16:38 lspgpot
+lrwxrwxrwx 1 root root          23 Feb  7  2018 lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx 1 root root          23 Feb  7  2018 lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx 1 root root          24 Feb  7  2018 lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx 1 root root          25 Feb  7  2018 lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx 1 root root          25 Feb  7  2018 lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx 1 root root          24 Feb  7  2018 lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx 1 root root          24 Feb  7  2018 lzless -> /etc/alternatives/lzless
+lrwxrwxrwx 1 root root          22 Feb  7  2018 lzma -> /etc/alternatives/lzma
+-rwxr-xr-x 1 root root       10632 May  8 16:38 lzmainfo
+lrwxrwxrwx 1 root root          24 Feb  7  2018 lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x 1 root root      107008 May  8 16:38 man
+-rwxr-xr-x 1 root root      129760 May  8 16:38 mandb
+-rwxr-xr-x 1 root root       31200 May  8 16:38 manpath
+-rwxr-xr-x 1 root root       19096 May  8 16:38 mapscrn
+-rwxr-xr-x 1 root root    18160712 May  8 16:38 mariabackup
+lrwxrwxrwx 1 root root           5 Jul  4  2020 mariadb -> mysql
+-rwxr-xr-x 1 root root        2488 May  8 16:38 mariadb-service-convert
+lrwxrwxrwx 1 root root          10 Jul  4  2020 mariadbcheck -> mysqlcheck
+-rwxr-xr-x 1 root root      121976 May  8 16:38 mawk
+-rwxr-xr-x 1 root root     3569856 May  8 16:38 mbstream
+-rwxr-xr-x 1 root root       31528 May  8 16:38 mcookie
+-rwxr-xr-x 1 root root       43880 May  8 16:38 md5sum
+lrwxrwxrwx 1 root root           6 Feb 22  2017 md5sum.textutils -> md5sum
+-rwxr-xr-x 1 root root       10704 May  8 16:38 mesg
+-rwxr-xr-x 1 root root        2194 May  8 16:38 migrate-pubring-from-classic-gpg
+-rwxr-xr-x 1 root root       16163 May  8 16:38 mk_modmap
+-rwxr-xr-x 1 root root       64552 May  8 16:38 mkfifo
+-rwxr-xr-x 1 root root        1446 May  8 16:38 msql2mysql
+-rwxr-xr-x 1 root root       31982 May  8 16:38 munchlist
+-rwxr-xr-x 1 root root     3549824 May  8 16:38 my_print_defaults
+-rwxr-xr-x 1 root root     3927392 May  8 16:38 myisam_ftdump
+-rwxr-xr-x 1 root root     4055072 May  8 16:38 myisamchk
+-rwxr-xr-x 1 root root     3909984 May  8 16:38 myisamlog
+-rwxr-xr-x 1 root root     3956640 May  8 16:38 myisampack
+-rwxr-xr-x 1 root root     4322032 May  8 16:38 mysql
+-rwxr-xr-x 1 root root        4217 May  8 16:38 mysql_convert_table_format
+-rwxr-xr-x 1 root root    16785928 May  8 16:38 mysql_embedded
+-rwxr-xr-x 1 root root        3290 May  8 16:38 mysql_find_rows
+-rwxr-xr-x 1 root root        1250 May  8 16:38 mysql_fix_extensions
+-rwxr-xr-x 1 root root       19665 May  8 16:38 mysql_install_db
+-rwxr-xr-x 1 root root     3557936 May  8 16:38 mysql_plugin
+-rwxr-xr-x 1 root root       12527 May  8 16:38 mysql_secure_installation
+-rwxr-xr-x 1 root root       17482 May  8 16:38 mysql_setpermission
+-rwxr-xr-x 1 root root     3553280 May  8 16:38 mysql_tzinfo_to_sql
+-rwxr-xr-x 1 root root     3636816 May  8 16:38 mysql_upgrade
+-rwxr-xr-x 1 root root     3544864 May  8 16:38 mysql_waitpid
+-rwxr-xr-x 1 root root        3860 May  8 16:38 mysql_zap
+-rwxr-xr-x 1 root root      111949 May  8 16:38 mysqlaccess
+-rwxr-xr-x 1 root root     4099792 May  8 16:38 mysqladmin
+lrwxrwxrwx 1 root root          10 Jul  4  2020 mysqlanalyze -> mysqlcheck
+-rwxr-xr-x 1 root root     4277296 May  8 16:38 mysqlbinlog
+-rwxr-xr-x 1 root root     4101392 May  8 16:38 mysqlcheck
+-rwxr-xr-x 1 root root       24681 May  8 16:38 mysqld_multi
+-rwxr-xr-x 1 root root       31524 May  8 16:38 mysqld_safe
+-rwxr-xr-x 1 root root     3515488 May  8 16:38 mysqld_safe_helper
+-rwxr-xr-x 1 root root     4179408 May  8 16:38 mysqldump
+-rwxr-xr-x 1 root root        8242 May  8 16:38 mysqldumpslow
+-rwxr-xr-x 1 root root       34942 May  8 16:38 mysqlhotcopy
+-rwxr-xr-x 1 root root     4092048 May  8 16:38 mysqlimport
+lrwxrwxrwx 1 root root          10 Jul  4  2020 mysqloptimize -> mysqlcheck
+lrwxrwxrwx 1 root root          10 Jul  4  2020 mysqlrepair -> mysqlcheck
+-rwxr-xr-x 1 root root       51235 May  8 16:38 mysqlreport
+-rwxr-xr-x 1 root root     4090576 May  8 16:38 mysqlshow
+-rwxr-xr-x 1 root root     4109776 May  8 16:38 mysqlslap
+-rwxr-xr-x 1 root root       64823 May  8 16:38 mytop
+-rwxr-xr-x 1 root root       27296 May  8 16:38 namei
+lrwxrwxrwx 1 root root          22 Feb  7  2018 nawk -> /etc/alternatives/nawk
+-rwxr-xr-x 1 root root       29912 May  8 16:38 ncal
+-rwxr-xr-x 1 root root         908 May  8 16:38 neqn
+-rwsr-xr-x 1 root root       40312 May  8 16:38 newgrp
+-rwxr-xr-x 1 root root       35528 May  8 16:38 ngettext
+-rwxr-xr-x 1 root root       35592 May  8 16:38 nice
+-rwxr-xr-x 1 root root       39848 May  8 16:38 nl
+-rwxr-xr-x 1 root root       35624 May  8 16:38 nohup
+-rwxr-xr-x 1 root root       35624 May  8 16:38 nproc
+-rwxr-xr-x 1 root root        3323 May  8 16:38 nroff
+-rwxr-xr-x 1 root root       31688 May  8 16:38 nsenter
+-rwxr-xr-x 1 root root      117032 May  8 16:38 nslookup
+-rwxr-xr-x 1 root root       23216 May  8 16:38 nstat
+-rwxr-xr-x 1 root root       63512 May  8 16:38 nsupdate
+-rwxr-xr-x 1 root root       60328 May  8 16:38 numfmt
+-rwxr-xr-x 1 root root       68520 May  8 16:38 od
+lrwxrwxrwx 1 root root          17 May  1  2014 on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x 1 root root      654824 May  8 16:38 openssl
+-rwxr-xr-x 1 root root        4551 May  8 16:38 os-prober
+lrwxrwxrwx 1 root root          23 Feb  7  2018 pager -> /etc/alternatives/pager
+-rwxr-xr-x 1 root root       85640 May  8 16:38 partx
+-rwsr-xr-x 1 root root       59680 May  8 16:38 passwd
+-rwxr-xr-x 1 root root       35624 May  8 16:38 paste
+-rwxr-xr-x 1 root root       31496 May  8 16:38 pathchk
+-rwxr-xr-x 1 root root       14936 May  8 16:38 pcimodules
+lrwxrwxrwx 1 root root           6 Jan 24  2017 pdb -> pdb2.7
+lrwxrwxrwx 1 root root          23 Feb  6  2022 pdb2.7 -> ../lib/python2.7/pdb.py
+lrwxrwxrwx 1 root root           6 Jan 20  2017 pdb3 -> pdb3.5
+lrwxrwxrwx 1 root root          23 Nov  4  2021 pdb3.5 -> ../lib/python3.5/pdb.py
+-rwxr-xr-x 1 root root       10776 May  8 16:38 peekfd
+-rwxr-xr-x 1 root root         528 May  8 16:38 perf
+-rwxr-xr-x 2 root root     2021960 May  8 16:38 perl
+-rwxr-xr-x 1 root root       10488 May  8 16:38 perl5.24-x86_64-linux-gnu
+-rwxr-xr-x 2 root root     2021960 May  8 16:38 perl5.24.1
+-rwxr-xr-x 2 root root       45528 May  8 16:38 perlbug
+-rwxr-xr-x 1 root root         125 May  8 16:38 perldoc
+-rwxr-xr-x 1 root root       10862 May  8 16:38 perlivp
+-rwxr-xr-x 2 root root       45528 May  8 16:38 perlthanks
+-rwxr-xr-x 1 root root     3708224 May  8 16:38 perror
+-rwxr-xr-x 1 root root       39824 May  8 16:38 pg
+-rwxr-xr-x 1 root root       26712 May  8 16:38 pgrep
+lrwxrwxrwx 1 root root          22 May  8 16:34 phar -> /etc/alternatives/phar
+-rwxr-xr-x 1 root root       14823 May  8 16:38 phar5
+lrwxrwxrwx 1 root root          21 May  8 16:34 php -> /etc/alternatives/php
+-rwxr-xr-x 1 root root     9089768 May  8 16:38 php5
+-rwxr-xr-x 1 root root      200736 May  8 16:38 pic
+lrwxrwxrwx 1 root root          22 Feb  7  2018 pico -> /etc/alternatives/pico
+-rwxr-xr-x 1 root root        8357 May  8 16:38 piconv
+lrwxrwxrwx 1 root root          26 Feb  7  2018 pinentry -> /etc/alternatives/pinentry
+-rwxr-xr-x 1 root root       55768 May  8 16:38 pinentry-curses
+-rwxr-xr-x 1 root root       39880 May  8 16:38 pinky
+lrwxrwxrwx 1 root root           5 May 17  2018 pkill -> pgrep
+-rwxr-xr-x 1 root root        4531 May  8 16:38 pl2pm
+-rwxr-xr-x 1 root root       14920 May  8 16:38 pldd
+-rwxr-xr-x 1 root root       30808 May  8 16:38 pmap
+-rwxr-xr-x 1 root root        4134 May  8 16:38 pod2html
+-rwxr-xr-x 1 root root       14169 May  8 16:38 pod2man
+-rwxr-xr-x 1 root root       10979 May  8 16:38 pod2text
+-rwxr-xr-x 1 root root        3948 May  8 16:38 pod2usage
+-rwxr-xr-x 1 root root        3699 May  8 16:38 podchecker
+-rwxr-xr-x 1 root root        2527 May  8 16:38 podselect
+-rwxr-xr-x 1 root root       76808 May  8 16:38 pr
+-rwxr-xr-x 1 root root       43208 May  8 16:38 preconv
+-rwxr-xr-x 1 root root        3200 May  8 16:38 prename
+lrwxrwxrwx 1 root root          11 May  1  2016 print -> run-mailcap
+-rwxr-xr-x 1 root root       31464 May  8 16:38 printenv
+-rwxr-xr-x 1 root root       18720 May  8 16:38 printerbanner
+-rwxr-xr-x 1 root root       52008 May  8 16:38 printf
+-rwxr-xr-x 1 root root       32136 May  8 16:38 prlimit
+-rwxr-xr-x 1 root root       73464 May  8 16:38 procan
+-rwxr-xr-x 1 root root       13588 May  8 16:38 prove
+-rwxr-xr-x 1 root root       14768 May  8 16:38 prtstat
+lrwxrwxrwx 1 root root           9 Jan  5  2016 psfaddtable -> psfxtable
+lrwxrwxrwx 1 root root           9 Jan  5  2016 psfgettable -> psfxtable
+lrwxrwxrwx 1 root root           9 Jan  5  2016 psfstriptable -> psfxtable
+-rwxr-xr-x 1 root root       18816 May  8 16:38 psfxtable
+-rwxr-xr-x 1 root root       28152 May  8 16:38 pstree
+lrwxrwxrwx 1 root root           6 Aug 17  2015 pstree.x11 -> pstree
+-rwxr-xr-x 2 root root       36751 May  8 16:38 pstruct
+-rwxr-xr-x 1 root root        3562 May  8 16:38 ptar
+-rwxr-xr-x 1 root root        2628 May  8 16:38 ptardiff
+-rwxr-xr-x 1 root root        4392 May  8 16:38 ptargrep
+-rwxr-xr-x 1 root root       72712 May  8 16:38 ptx
+-rwxr-xr-x 1 root root       10312 May  8 16:38 pwdx
+-rwxr-xr-x 1 root root        7806 May  8 16:38 py3clean
+-rwxr-xr-x 1 root root       12113 May  8 16:38 py3compile
+lrwxrwxrwx 1 root root          31 Jan 20  2017 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx 1 root root          26 Jan 25  2017 pybuild -> ../share/dh-python/pybuild
+-rwxr-xr-x 1 root root        4123 May  8 16:38 pyclean
+-rwxr-xr-x 1 root root       11894 May  8 16:38 pycompile
+lrwxrwxrwx 1 root root           8 Jan 24  2017 pydoc -> pydoc2.7
+-rwxr-xr-x 1 root root          79 May  8 16:38 pydoc2.7
+lrwxrwxrwx 1 root root           8 Jan 20  2017 pydoc3 -> pydoc3.5
+-rwxr-xr-x 1 root root          79 May  8 16:38 pydoc3.5
+lrwxrwxrwx 1 root root          12 Jan 24  2017 pygettext -> pygettext2.7
+-rwxr-xr-x 1 root root       22096 May  8 16:38 pygettext2.7
+lrwxrwxrwx 1 root root          12 Jan 20  2017 pygettext3 -> pygettext3.5
+-rwxr-xr-x 1 root root       22255 May  8 16:38 pygettext3.5
+lrwxrwxrwx 1 root root           9 Jan 24  2017 python -> python2.7
+lrwxrwxrwx 1 root root           9 Jan 24  2017 python2 -> python2.7
+-rwxr-xr-x 1 root root     3775416 May  8 16:38 python2.7
+lrwxrwxrwx 1 root root           9 Jan 20  2017 python3 -> python3.5
+-rwxr-xr-x 2 root root     4751216 May  8 16:38 python3.5
+-rwxr-xr-x 2 root root     4751216 May  8 16:38 python3.5m
+lrwxrwxrwx 1 root root          10 Jan 20  2017 python3m -> python3.5m
+lrwxrwxrwx 1 root root          29 Jan 24  2017 pyversions -> ../share/python/pyversions.py
+-rwxr-xr-x 1 root root       10849 May  8 16:38 querybts
+lrwxrwxrwx 1 root root          21 Feb  7  2018 rcp -> /etc/alternatives/rcp
+-rwxr-xr-x 1 root root       47944 May  8 16:38 realpath
+lrwxrwxrwx 1 root root          24 Feb  7  2018 rename -> /etc/alternatives/rename
+-rwxr-xr-x 1 root root       14824 May  8 16:38 rename.ul
+-rwxr-xr-x 1 root root       10608 May  8 16:38 renice
+-rwxr-xr-x 1 root root     3527744 May  8 16:38 replace
+-rwxr-xr-x 1 root root        2099 May  8 16:38 report-hw
+-rwxr-xr-x 1 root root      106119 May  8 16:38 reportbug
+lrwxrwxrwx 1 root root           4 Dec 28  2017 reset -> tset
+-rwxr-xr-x 1 root root       19096 May  8 16:38 resizecons
+-rwxr-xr-x 1 root root       39792 May  8 16:38 resizepart
+-rwxr-xr-x 1 root root     3548960 May  8 16:38 resolve_stack_dump
+-rwxr-xr-x 1 root root     3548960 May  8 16:38 resolveip
+-rwxr-xr-x 1 root root       10704 May  8 16:38 rev
+-rwxr-xr-x 1 root root          30 May  8 16:38 rgrep
+lrwxrwxrwx 1 root root          24 Feb  7  2018 rlogin -> /etc/alternatives/rlogin
+-rwxr-xr-x 1 root root       18504 May  8 16:38 rotatelogs
+-rwxr-xr-x 1 root root         173 May  8 16:38 routef
+-rwxr-xr-x 1 root root        1262 May  8 16:38 routel
+lrwxrwxrwx 1 root root          21 Feb  7  2018 rsh -> /etc/alternatives/rsh
+-rwxr-xr-x 1 root root      483640 May  8 16:38 rsync
+lrwxrwxrwx 1 root root           6 Nov 24  2017 rtstat -> lnstat
+-rwxr-xr-x 1 root root       18161 May  8 16:38 run-mailcap
+-rwxr-xr-x 1 root root       35688 May  8 16:38 runcon
+lrwxrwxrwx 1 root root          23 Feb  7  2018 rview -> /etc/alternatives/rview
+lrwxrwxrwx 1 root root          22 Feb  7  2018 rvim -> /etc/alternatives/rvim
+-rwxr-xr-x 1 root root       10469 May  8 16:38 savelog
+-rwxr-xr-x 1 root root       88208 May  8 16:38 scp
+-rwxr-xr-x 1 root root       10592 May  8 16:38 screendump
+-rwxr-xr-x 1 root root       23272 May  8 16:38 script
+-rwxr-xr-x 1 root root       23168 May  8 16:38 scriptreplay
+-rwxr-xr-x 1 root root       52072 May  8 16:38 sdiff
+lrwxrwxrwx 1 root root          11 May  1  2016 see -> run-mailcap
+-rwxr-xr-x 1 root root         474 May  8 16:38 select-default-iwrap
+-rwxr-xr-x 1 root root        1215 May  8 16:38 select-editor
+-rwxr-xr-x 1 root root        1138 May  8 16:38 sensible-browser
+-rwxr-xr-x 1 root root        1109 May  8 16:38 sensible-editor
+-rwxr-xr-x 1 root root         288 May  8 16:38 sensible-pager
+-rwxr-xr-x 1 root root       47944 May  8 16:38 seq
+-rwxr-xr-x 1 root root       19184 May  8 16:38 setarch
+-rwxr-xr-x 1 root root       10616 May  8 16:38 setkeycodes
+-rwxr-xr-x 1 root root       14696 May  8 16:38 setleds
+-rwxr-xr-x 1 root root       10616 May  8 16:38 setlogcons
+-rwxr-xr-x 1 root root       10648 May  8 16:38 setmetamode
+-rwxr-xr-x 1 root root       23080 May  8 16:38 setpci
+-rwxr-xr-x 1 root root       10696 May  8 16:38 setsid
+-rwxr-xr-x 1 root root       39608 May  8 16:38 setterm
+-rwxr-xr-x 1 root root       10712 May  8 16:38 setvtrgb
+-rwxr-xr-x 1 root root      137584 May  8 16:38 sftp
+lrwxrwxrwx 1 root root           6 Mar 17  2021 sg -> newgrp
+-rwxr-xr-x 1 root root       47976 May  8 16:38 sha1sum
+-rwxr-xr-x 1 root root       56168 May  8 16:38 sha224sum
+-rwxr-xr-x 1 root root       56168 May  8 16:38 sha256sum
+-rwxr-xr-x 1 root root       60264 May  8 16:38 sha384sum
+-rwxr-xr-x 1 root root       60264 May  8 16:38 sha512sum
+-rwxr-xr-x 1 root root        9370 May  8 16:38 shasum
+-rwxr-xr-x 1 root root       18896 May  8 16:38 showconsolefont
+-rwxr-xr-x 1 root root       14984 May  8 16:38 showkey
+-rwxr-xr-x 1 root root       60424 May  8 16:38 shred
+-rwxr-xr-x 1 root root       56232 May  8 16:38 shuf
+-rwxr-xr-x 1 root root       26704 May  8 16:38 skill
+-rwxr-xr-x 1 root root       18512 May  8 16:38 slabtop
+lrwxrwxrwx 1 root root           3 Jul 15  2019 slogin -> ssh
+lrwxrwxrwx 1 root root           5 May 17  2018 snice -> skill
+-rwxr-xr-x 1 root root      378336 May  8 16:38 socat
+-rwxr-xr-x 1 root root       30920 May  8 16:38 soelim
+-rwxr-xr-x 1 root root      110096 May  8 16:38 sort
+-rwxr-xr-x 1 root root       18808 May  8 16:38 splain
+-rwxr-xr-x 1 root root       56712 May  8 16:38 split
+-rwxr-xr-x 1 root root       10496 May  8 16:38 splitfont
+-rwxr-xr-x 1 root root        6136 May  8 16:38 sq
+-rwxr-xr-x 1 root root      732016 May  8 16:38 ssh
+-rwxr-xr-x 1 root root      338136 May  8 16:38 ssh-add
+-rwxr-sr-x 1 root ssh       358624 May  8 16:38 ssh-agent
+-rwxr-xr-x 1 root root        1456 May  8 16:38 ssh-argv0
+-rwxr-xr-x 1 root root       10372 May  8 16:38 ssh-copy-id
+-rwxr-xr-x 1 root root      399600 May  8 16:38 ssh-keygen
+-rwxr-xr-x 1 root root      415976 May  8 16:38 ssh-keyscan
+-rwxr-xr-x 1 root root       85096 May  8 16:38 stat
+-rwxr-xr-x 1 root root       47944 May  8 16:38 stdbuf
+-rwsr-xr-x 1 root root      140944 May  8 16:38 sudo
+lrwxrwxrwx 1 root root           4 Jan 23  2021 sudoedit -> sudo
+-rwxr-xr-x 1 root root       47712 May  8 16:38 sudoreplay
+-rwxr-xr-x 1 root root       39760 May  8 16:38 sum
+-rwxr-xr-x 1 root root      113256 May  8 16:38 symcryptrun
+-rwxr-xr-x 1 root root     1034856 May  8 16:38 systemd-analyze
+-rwxr-xr-x 1 root root       10584 May  8 16:38 systemd-cat
+-rwxr-xr-x 1 root root       14680 May  8 16:38 systemd-cgls
+-rwxr-xr-x 1 root root       31168 May  8 16:38 systemd-cgtop
+-rwxr-xr-x 1 root root       22952 May  8 16:38 systemd-delta
+-rwxr-xr-x 1 root root       10576 May  8 16:38 systemd-detect-virt
+-rwxr-xr-x 1 root root       31080 May  8 16:38 systemd-mount
+-rwxr-xr-x 1 root root       10576 May  8 16:38 systemd-path
+-rwxr-xr-x 1 root root       80216 May  8 16:38 systemd-resolve
+-rwxr-xr-x 1 root root       39256 May  8 16:38 systemd-run
+-rwxr-xr-x 1 root root       22872 May  8 16:38 systemd-socket-activate
+-rwxr-xr-x 1 root root       14680 May  8 16:38 systemd-stdio-bridge
+-rwxr-xr-x 1 root root       14328 May  8 16:38 tabs
+-rwxr-xr-x 1 root root       39752 May  8 16:38 tac
+-rwxr-xr-x 1 root root       68584 May  8 16:38 tail
+-rwxr-xr-x 1 root root       16489 May  8 16:38 tasksel
+-rwxr-xr-x 1 root root       31488 May  8 16:38 taskset
+-rwxr-xr-x 1 root root      121032 May  8 16:38 tbl
+-rwxr-xr-x 1 root root       35656 May  8 16:38 tee
+lrwxrwxrwx 1 root root          24 Feb  7  2018 telnet -> /etc/alternatives/telnet
+-rwxr-xr-x 1 root root      106928 May  8 16:38 telnet.netkit
+-rwxr-xr-x 1 root root       47912 May  8 16:38 test
+-rwxr-xr-x 1 root root       79984 May  8 16:38 tic
+-rwxr-xr-x 1 root root       22872 May  8 16:38 timedatectl
+-rwxr-xr-x 1 root root       40296 May  8 16:38 timeout
+-rwxr-xr-x 1 root root       14424 May  8 16:38 tload
+-rwxr-xr-x 1 root root       14328 May  8 16:38 toe
+-rwxr-xr-x 1 root root      108304 May  8 16:38 top
+lrwxrwxrwx 1 root root          10 Feb  7  2018 touch -> /bin/touch
+-rwxr-xr-x 1 root root       18456 May  8 16:38 tput
+-rwxr-xr-x 1 root root       47912 May  8 16:38 tr
+lrwxrwxrwx 1 root root          28 Feb  7  2018 traceproto -> /etc/alternatives/traceproto
+-rwxr-xr-x 1 root root        2885 May  8 16:38 traceproto.db
+lrwxrwxrwx 1 root root          28 Feb  7  2018 traceroute -> /etc/alternatives/traceroute
+-rwxr-xr-x 1 root root        1618 May  8 16:38 traceroute-nanog
+-rwxr-xr-x 1 root root       68768 May  8 16:38 traceroute.db
+lrwxrwxrwx 1 root root          29 Feb  7  2018 traceroute6 -> /etc/alternatives/traceroute6
+lrwxrwxrwx 1 root root          13 Aug 29  2016 traceroute6.db -> traceroute.db
+-rwxr-xr-x 1 root root      712032 May  8 16:38 troff
+-rwxr-xr-x 1 root root       39688 May  8 16:38 truncate
+-rwxr-xr-x 1 root root        4919 May  8 16:38 tryaffix
+-rwxr-xr-x 1 root root       22528 May  8 16:38 tset
+-rwxr-xr-x 1 root root       35592 May  8 16:38 tsort
+-rwxr-xr-x 1 root root       31496 May  8 16:38 tty
+-rwxr-xr-x 1 root root       15183 May  8 16:38 tzselect
+-rwxr-xr-x 1 root root       40636 May  8 16:38 ucf
+-rwxr-xr-x 1 root root       19367 May  8 16:38 ucfq
+-rwxr-xr-x 1 root root       10722 May  8 16:38 ucfr
+-rwxr-xr-x 1 root root       14688 May  8 16:38 ul
+-rwxr-xr-x 1 root root       35656 May  8 16:38 unexpand
+-rwxr-xr-x 1 root root         530 May  8 16:38 unicode_stop
+-rwxr-xr-x 1 root root       43880 May  8 16:38 uniq
+-rwxr-xr-x 1 root root       31464 May  8 16:38 unlink
+lrwxrwxrwx 1 root root          24 Feb  7  2018 unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x 1 root root        2859 May  8 16:38 unmkinitramfs
+-rwxr-xr-x 1 root root       19272 May  8 16:38 unshare
+-rwxr-xr-x 1 root root       10232 May  8 16:38 unsq
+lrwxrwxrwx 1 root root           2 Apr 10  2022 unxz -> xz
+-rwxr-xr-x 1 root root       47112 May  8 16:38 update-alternatives
+-rwxr-xr-x 1 root root         672 May  8 16:38 update-mime-database
+-rwxr-xr-x 1 root root       52456 May  8 16:38 update-mime-database.real
+-rwxr-xr-x 1 root root       10312 May  8 16:38 uptime
+-rwxr-xr-x 1 root root       31528 May  8 16:38 users
+-rwxr-xr-x 1 root root       23256 May  8 16:38 utmpdump
+lrwxrwxrwx 1 root root          20 Feb  7  2018 vi -> /etc/alternatives/vi
+lrwxrwxrwx 1 root root          22 Feb  7  2018 view -> /etc/alternatives/view
+lrwxrwxrwx 1 root root          21 Feb  7  2018 vim -> /etc/alternatives/vim
+-rwxr-xr-x 1 root root     2417192 May  8 16:38 vim.basic
+-rwxr-xr-x 1 root root     1062808 May  8 16:38 vim.tiny
+lrwxrwxrwx 1 root root          25 Feb  7  2018 vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x 1 root root        2099 May  8 16:38 vimtutor
+-rwxr-xr-x 1 root root       48224 May  8 16:38 vmhgfs-fuse
+-rwxr-xr-x 1 root root       30816 May  8 16:38 vmstat
+-rwxr-xr-x 1 root root       48656 May  8 16:38 vmtoolsd
+-rwxr-xr-x 1 root root       10536 May  8 16:38 vmware-checkvm
+-rwxr-xr-x 1 root root       32208 May  8 16:38 vmware-guestproxycerttool
+-rwxr-xr-x 1 root root       10608 May  8 16:38 vmware-hgfsclient
+-rwxr-xr-x 1 root root       18888 May  8 16:38 vmware-namespace-cmd
+-rwxr-xr-x 1 root root       47608 May  8 16:38 vmware-rpctool
+-rwxr-xr-x 1 root root       39952 May  8 16:38 vmware-toolbox-cmd
+-rwxr-xr-x 1 root root       14744 May  8 16:38 vmware-vgauth-cmd
+-rwxr-xr-x 1 root root       15160 May  8 16:38 vmware-vmblock-fuse
+-rwxr-xr-x 1 root root       10664 May  8 16:38 vmware-xferlogs
+-rwxr-xr-x 1 root root        6136 May  8 16:38 volname
+lrwxrwxrwx 1 root root          19 Feb  7  2018 w -> /etc/alternatives/w
+-rwxr-xr-x 1 root root       18504 May  8 16:38 w.procps
+-rwxr-sr-x 1 root tty        27448 May  8 16:38 wall
+-rwxr-xr-x 1 root root       22952 May  8 16:38 watch
+-rwxr-xr-x 1 root root       14328 May  8 16:38 watchgnupg
+-rwxr-xr-x 1 root root       43888 May  8 16:38 wc
+-rwxr-xr-x 1 root root      491072 May  8 16:38 wget
+-rwxr-xr-x 1 root root       48104 May  8 16:38 whatis
+-rwxr-xr-x 1 root root       27744 May  8 16:38 whereis
+lrwxrwxrwx 1 root root          10 Feb  7  2018 which -> /bin/which
+-rwxr-xr-x 1 root root       27408 May  8 16:38 whiptail
+-rwxr-xr-x 1 root root       52168 May  8 16:38 who
+-rwxr-xr-x 1 root root       31496 May  8 16:38 whoami
+lrwxrwxrwx 1 root root          23 Feb  7  2018 write -> /etc/alternatives/write
+-rwxr-xr-x 1 root root       10765 May  8 16:38 wsrep_sst_common
+-rwxr-xr-x 1 root root       37515 May  8 16:38 wsrep_sst_mariabackup
+-rwxr-xr-x 1 root root        7878 May  8 16:38 wsrep_sst_mysqldump
+-rwxr-xr-x 1 root root       15255 May  8 16:38 wsrep_sst_rsync
+lrwxrwxrwx 1 root root          15 Jul  4  2020 wsrep_sst_rsync_wan -> wsrep_sst_rsync
+-rwxr-xr-x 1 root root       21273 May  8 16:38 wsrep_sst_xtrabackup
+-rwxr-xr-x 1 root root       41671 May  8 16:38 wsrep_sst_xtrabackup-v2
+lrwxrwxrwx 1 root root           7 Mar  7  2018 x86_64 -> setarch
+-rwxr-xr-x 1 root root       67800 May  8 16:38 xargs
+-rwxr-xr-x 1 root root       48608 May  8 16:38 xauth
+-rwxr-xr-x 1 root root         234 May  8 16:38 xdg-user-dir
+-rwxr-xr-x 1 root root       19032 May  8 16:38 xdg-user-dirs-update
+-rwxr-xr-x 1 root root        5164 May  8 16:38 xsubpp
+-rwxr-xr-x 1 root root       18552 May  8 16:38 xxd
+-rwxr-xr-x 1 root root       77184 May  8 16:38 xz
+lrwxrwxrwx 1 root root           2 Apr 10  2022 xzcat -> xz
+lrwxrwxrwx 1 root root           6 Apr 10  2022 xzcmp -> xzdiff
+-rwxr-xr-x 1 root root        6634 May  8 16:38 xzdiff
+lrwxrwxrwx 1 root root           6 Apr 10  2022 xzegrep -> xzgrep
+lrwxrwxrwx 1 root root           6 Apr 10  2022 xzfgrep -> xzgrep
+-rwxr-xr-x 1 root root        5904 May  8 16:38 xzgrep
+-rwxr-xr-x 1 root root        1804 May  8 16:38 xzless
+-rwxr-xr-x 1 root root        2163 May  8 16:38 xzmore
+-rwxr-xr-x 1 root root       31464 May  8 16:38 yes
+-rwxr-xr-x 1 root root       14768 May  8 16:38 zdump
+-rwxr-xr-x 1 root root       48497 May  8 16:38 zipdetails
+ls -l /sbin               
+total 5612
+-rwxr-xr-x 1 root root      112 May  8 16:38 acpi_available
+-rwxr-xr-x 1 root root    57680 May  8 16:38 agetty
+-rwxr-xr-x 1 root root      125 May  8 16:38 apm_available
+-rwxr-xr-x 1 root root    26632 May  8 16:38 badblocks
+-rwxr-xr-x 1 root root    13679 May  8 16:38 blkdeactivate
+-rwxr-xr-x 1 root root    27264 May  8 16:38 blkdiscard
+-rwxr-xr-x 1 root root    85408 May  8 16:38 blkid
+-rwxr-xr-x 1 root root    35624 May  8 16:38 blockdev
+-rwxr-xr-x 1 root root    72648 May  8 16:38 bridge
+-rwxr-xr-x 1 root root    90472 May  8 16:38 cfdisk
+-rwxr-xr-x 1 root root    23128 May  8 16:38 chcpu
+-rwxr-xr-x 1 root root    19032 May  8 16:38 ctrlaltdel
+-rwxr-xr-x 1 root root   218624 May  8 16:38 debugfs
+lrwxrwxrwx 1 root root        9 Dec 26  2016 depmod -> /bin/kmod
+-rwxr-xr-x 1 root root    43680 May  8 16:38 devlink
+-rwxr-xr-x 1 root root   487728 May  8 16:38 dhclient
+-rwxr-xr-x 1 root root    13693 May  8 16:38 dhclient-script
+-rwxr-xr-x 1 root root    19672 May  8 16:38 discover
+-rwxr-xr-x 1 root root     5014 May  8 16:38 discover-modprobe
+-rwxr-xr-x 1 root root     5796 May  8 16:38 discover-pkginstall
+-rwxr-xr-x 1 root root   141704 May  8 16:38 dmsetup
+lrwxrwxrwx 1 root root        7 Mar 17  2017 dmstats -> dmsetup
+-rwxr-xr-x 1 root root    26704 May  8 16:38 dumpe2fs
+-rwxr-xr-x 1 root root   309792 May  8 16:38 e2fsck
+-rwxr-xr-x 1 root root    34896 May  8 16:38 e2image
+lrwxrwxrwx 1 root root        7 Jul 25  2020 e2label -> tune2fs
+-rwxr-xr-x 1 root root    18504 May  8 16:38 e2undo
+-rwxr-xr-x 1 root root   335328 May  8 16:38 ethtool
+-rwxr-xr-x 1 root root   118056 May  8 16:38 fdisk
+-rwxr-xr-x 1 root root    10568 May  8 16:38 findfs
+-rwxr-xr-x 1 root root    48328 May  8 16:38 fsck
+-rwxr-xr-x 1 root root    35680 May  8 16:38 fsck.cramfs
+lrwxrwxrwx 1 root root        6 Jul 25  2020 fsck.ext2 -> e2fsck
+lrwxrwxrwx 1 root root        6 Jul 25  2020 fsck.ext3 -> e2fsck
+lrwxrwxrwx 1 root root        6 Jul 25  2020 fsck.ext4 -> e2fsck
+-rwxr-xr-x 1 root root    85088 May  8 16:38 fsck.minix
+-rwxr-xr-x 1 root root    10680 May  8 16:38 fsfreeze
+-rwxr-xr-x 1 root root     6352 May  8 16:38 fstab-decode
+-rwxr-xr-x 1 root root    43992 May  8 16:38 fstrim
+lrwxrwxrwx 1 root root        6 Mar  7  2018 getty -> agetty
+lrwxrwxrwx 1 root root       14 Jun 29  2022 halt -> /bin/systemctl
+-rwxr-xr-x 1 root root   123064 May  8 16:38 hdparm
+-rwxr-xr-x 1 root root    64528 May  8 16:38 hwclock
+lrwxrwxrwx 1 root root        4 Jan 30  2017 ifdown -> ifup
+lrwxrwxrwx 1 root root        4 Jan 30  2017 ifquery -> ifup
+-rwxr-xr-x 1 root root    75768 May  8 16:38 ifup
+lrwxrwxrwx 1 root root       20 Jun 29  2022 init -> /lib/systemd/systemd
+lrwxrwxrwx 1 root root        9 Dec 26  2016 insmod -> /bin/kmod
+-rwxr-xr-x 1 root root     2638 May  8 16:38 installkernel
+lrwxrwxrwx 1 root root        7 Nov 24  2017 ip -> /bin/ip
+lrwxrwxrwx 1 root root       13 Apr 12  2017 ip6tables -> xtables-multi
+lrwxrwxrwx 1 root root       13 Apr 12  2017 ip6tables-restore -> xtables-multi
+lrwxrwxrwx 1 root root       13 Apr 12  2017 ip6tables-save -> xtables-multi
+lrwxrwxrwx 1 root root       13 Apr 12  2017 iptables -> xtables-multi
+lrwxrwxrwx 1 root root       13 Apr 12  2017 iptables-restore -> xtables-multi
+lrwxrwxrwx 1 root root       13 Apr 12  2017 iptables-save -> xtables-multi
+-rwxr-xr-x 1 root root    23160 May  8 16:38 isosize
+-rwxr-xr-x 1 root root    10608 May  8 16:38 kbdrate
+-rwxr-xr-x 1 root root    23224 May  8 16:38 killall5
+-rwxr-xr-x 1 root root   881912 May  8 16:38 ldconfig
+-rwxr-xr-x 1 root root    10240 May  8 16:38 logsave
+-rwxr-xr-x 1 root root    81120 May  8 16:38 losetup
+lrwxrwxrwx 1 root root        9 Dec 26  2016 lsmod -> /bin/kmod
+-rwxr-xr-x 1 root root   125248 May  8 16:38 mke2fs
+-rwxr-xr-x 1 root root    10664 May  8 16:38 mkfs
+-rwxr-xr-x 1 root root    31400 May  8 16:38 mkfs.bfs
+-rwxr-xr-x 1 root root    35456 May  8 16:38 mkfs.cramfs
+lrwxrwxrwx 1 root root        6 Jul 25  2020 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root        6 Jul 25  2020 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root        6 Jul 25  2020 mkfs.ext4 -> mke2fs
+-rwxr-xr-x 1 root root    81016 May  8 16:38 mkfs.minix
+-rwxr-xr-x 1 root root    18848 May  8 16:38 mkhomedir_helper
+-rwxr-xr-x 1 root root    81144 May  8 16:38 mkswap
+lrwxrwxrwx 1 root root        9 Dec 26  2016 modinfo -> /bin/kmod
+lrwxrwxrwx 1 root root        9 Dec 26  2016 modprobe -> /bin/kmod
+-rwxr-xr-x 1 root root    10232 May  8 16:38 mount.fuse
+-rwxr-xr-x 1 root root    72600 May  8 16:38 mount.vmhgfs
+-rwxr-xr-x 1 root root     2251 May  8 16:38 on_ac_power
+-rwxr-xr-x 1 root root    10592 May  8 16:38 pam_tally
+-rwxr-xr-x 1 root root    14776 May  8 16:38 pam_tally2
+-rwxr-xr-x 1 root root    10640 May  8 16:38 pivot_root
+lrwxrwxrwx 1 root root       14 Jun 29  2022 poweroff -> /bin/systemctl
+-rwxr-xr-x 1 root root    14784 May  8 16:38 raw
+lrwxrwxrwx 1 root root       14 Jun 29  2022 reboot -> /bin/systemctl
+-rwxr-xr-x 1 root root    59464 May  8 16:38 resize2fs
+lrwxrwxrwx 1 root root        9 Dec 26  2016 rmmod -> /bin/kmod
+-rwxr-xr-x 1 root root    41720 May  8 16:38 rtacct
+-rwxr-xr-x 1 root root    47800 May  8 16:38 rtmon
+lrwxrwxrwx 1 root root       14 Jun 29  2022 runlevel -> /bin/systemctl
+-rwxr-xr-x 1 root root    31816 May  8 16:38 runuser
+-rwxr-xr-x 1 root root   106656 May  8 16:38 sfdisk
+-rwxr-xr-x 1 root root      885 May  8 16:38 shadowconfig
+lrwxrwxrwx 1 root root       14 Jun 29  2022 shutdown -> /bin/systemctl
+-rwxr-xr-x 1 root root    31848 May  8 16:38 start-stop-daemon
+-rwxr-xr-x 1 root root    44208 May  8 16:38 sulogin
+-rwxr-xr-x 1 root root    14848 May  8 16:38 swaplabel
+-rwxr-xr-x 1 root root    19104 May  8 16:38 swapoff
+-rwxr-xr-x 1 root root    48488 May  8 16:38 swapon
+-rwxr-xr-x 1 root root    14800 May  8 16:38 switch_root
+-rwxr-xr-x 1 root root    22600 May  8 16:38 sysctl
+-rwxr-xr-x 1 root root   387632 May  8 16:38 tc
+lrwxrwxrwx 1 root root       14 Jun 29  2022 telinit -> /bin/systemctl
+-rwxr-xr-x 1 root root    55856 May  8 16:38 tipc
+-rwxr-xr-x 1 root root   100608 May  8 16:38 tune2fs
+lrwxrwxrwx 1 root root       12 Jun 29  2022 udevadm -> /bin/udevadm
+-rwxr-sr-x 1 root shadow  35592 May  8 16:38 unix_chkpwd
+-rwxr-xr-x 1 root root    35528 May  8 16:38 unix_update
+-rwxr-xr-x 1 root root    31536 May  8 16:38 wipefs
+-rwxr-xr-x 1 root root    94968 May  8 16:38 xtables-multi
+-rwxr-xr-x 1 root root    93512 May  8 16:38 zramctl
+ls -l /bin 
+total 8640
+-rwxr-xr-x 1 root root 1099016 May  8 16:38 bash
+-rwxr-xr-x 3 root root   35448 May  8 16:38 bunzip2
+-rwxr-xr-x 1 root root  673256 May  8 16:38 busybox
+-rwxr-xr-x 3 root root   35448 May  8 16:38 bzcat
+lrwxrwxrwx 1 root root       6 Jan 29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 May  8 16:38 bzdiff
+lrwxrwxrwx 1 root root       6 Jan 29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 May  8 16:38 bzexe
+lrwxrwxrwx 1 root root       6 Jan 29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 May  8 16:38 bzgrep
+-rwxr-xr-x 3 root root   35448 May  8 16:38 bzip2
+-rwxr-xr-x 1 root root   14664 May  8 16:38 bzip2recover
+lrwxrwxrwx 1 root root       6 Jan 29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 May  8 16:38 bzmore
+-rwxr-xr-x 1 root root   35688 May  8 16:38 cat
+-rwxr-xr-x 1 root root   64424 May  8 16:38 chgrp
+-rwxr-xr-x 1 root root   60296 May  8 16:38 chmod
+-rwxr-xr-x 1 root root   64456 May  8 16:38 chown
+-rwxr-xr-x 1 root root   10616 May  8 16:38 chvt
+-rwxr-xr-x 1 root root  130504 May  8 16:38 cp
+-rwxr-xr-x 1 root root  145864 May  8 16:38 cpio
+-rwxr-xr-x 1 root root  117208 May  8 16:38 dash
+-rwxr-xr-x 1 root root  105448 May  8 16:38 date
+-rwxr-xr-x 1 root root   76816 May  8 16:38 dd
+-rwxr-xr-x 1 root root   85688 May  8 16:38 df
+-rwxr-xr-x 1 root root  130736 May  8 16:38 dir
+-rwxr-xr-x 1 root root   73032 May  8 16:38 dmesg
+lrwxrwxrwx 1 root root       8 Jul  3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 Jul  3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 May  8 16:38 dumpkeys
+-rwxr-xr-x 1 root root   31464 May  8 16:38 echo
+-rwxr-xr-x 1 root root      28 May  8 16:38 egrep
+-rwxr-xr-x 1 root root   31464 May  8 16:38 false
+-rwxr-xr-x 1 root root   10624 May  8 16:38 fgconsole
+-rwxr-xr-x 1 root root      28 May  8 16:38 fgrep
+-rwxr-xr-x 1 root root   62072 May  8 16:38 findmnt
+-rwxr-xr-x 1 root root   36616 May  8 16:38 fuser
+-rwsr-xr-x 1 root root   30800 May  8 16:38 fusermount
+-rwxr-xr-x 1 root root  215360 May  8 16:38 grep
+-rwxr-xr-x 2 root root    2301 May  8 16:38 gunzip
+-rwxr-xr-x 1 root root    5927 May  8 16:38 gzexe
+-rwxr-xr-x 1 root root  102408 May  8 16:38 gzip
+-rwxr-xr-x 1 root root   18992 May  8 16:38 hostname
+-rwxr-xr-x 1 root root  442472 May  8 16:38 ip
+-rwxr-xr-x 1 root root   68024 May  8 16:38 journalctl
+-rwxr-xr-x 1 root root   10616 May  8 16:38 kbd_mode
+-rwxr-xr-x 1 root root   26704 May  8 16:38 kill
+-rwxr-xr-x 1 root root  149688 May  8 16:38 kmod
+-rwxr-xr-x 1 root root  165704 May  8 16:38 less
+-rwxr-xr-x 1 root root   10256 May  8 16:38 lessecho
+lrwxrwxrwx 1 root root       8 Feb 28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 May  8 16:38 lesskey
+-rwxr-xr-x 1 root root    7765 May  8 16:38 lesspipe
+-rwxr-xr-x 1 root root   56240 May  8 16:38 ln
+-rwxr-xr-x 1 root root  204248 May  8 16:38 loadkeys
+-rwxr-xr-x 1 root root   52632 May  8 16:38 login
+-rwxr-xr-x 1 root root   47456 May  8 16:38 loginctl
+-rwxr-xr-x 1 root root  130736 May  8 16:38 ls
+-rwxr-xr-x 1 root root   81376 May  8 16:38 lsblk
+lrwxrwxrwx 1 root root       4 Dec 26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 May  8 16:38 mkdir
+-rwxr-xr-x 1 root root   68648 May  8 16:38 mknod
+-rwxr-xr-x 1 root root   43912 May  8 16:38 mktemp
+-rwxr-xr-x 1 root root   39752 May  8 16:38 more
+-rwsr-xr-x 1 root root   44304 May  8 16:38 mount
+-rwxr-xr-x 1 root root   14840 May  8 16:38 mountpoint
+lrwxrwxrwx 1 root root      20 Feb  7  2018 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 May  8 16:38 mt-gnu
+-rwxr-xr-x 1 root root  126416 May  8 16:38 mv
+-rwxr-xr-x 1 root root  225320 May  8 16:38 nano
+lrwxrwxrwx 1 root root      20 Feb  7  2018 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 May  8 16:38 nc.traditional
+lrwxrwxrwx 1 root root      24 Feb  7  2018 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root   43352 May  8 16:38 networkctl
+lrwxrwxrwx 1 root root       8 Jul  3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 Jan  5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 May  8 16:38 openvt
+lrwxrwxrwx 1 root root      14 Feb 12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 May  8 16:38 ping
+lrwxrwxrwx 1 root root       4 Nov 10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 Nov 10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 May  8 16:38 ps
+-rwxr-xr-x 1 root root   35656 May  8 16:38 pwd
+lrwxrwxrwx 1 root root       4 May 15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 May  8 16:38 readlink
+-rwxr-xr-x 1 root root     577 May  8 16:38 recv
+-rwxr-xr-x 1 root root   64424 May  8 16:38 rm
+-rwxr-xr-x 1 root root   43816 May  8 16:38 rmdir
+lrwxrwxrwx 1 root root       4 Jan 11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 May  8 16:38 run-parts
+-rwxr-xr-x 1 root root  105808 May  8 16:38 sed
+-rwxr-xr-x 1 root root   43768 May  8 16:38 setfont
+-rwxr-xr-x 1 root root   38137 May  8 16:38 setupcon
+lrwxrwxrwx 1 root root       4 Jan 24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 Feb  7  2018 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 May  8 16:38 sleep
+-rwxr-xr-x 1 root root  128176 May  8 16:38 ss
+-rwxr-xr-x 1 root root   76680 May  8 16:38 stty
+-rwsr-xr-x 1 root root   40536 May  8 16:38 su
+-rwxr-xr-x 1 root root   31496 May  8 16:38 sync
+-rwxr-xr-x 1 root root  174520 May  8 16:38 systemctl
+lrwxrwxrwx 1 root root      20 Jun 29  2022 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   10592 May  8 16:38 systemd-ask-password
+-rwxr-xr-x 1 root root   14672 May  8 16:38 systemd-escape
+-rwxr-xr-x 1 root root   76536 May  8 16:38 systemd-hwdb
+-rwxr-xr-x 1 root root   14688 May  8 16:38 systemd-inhibit
+-rwxr-xr-x 1 root root   18768 May  8 16:38 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   10576 May  8 16:38 systemd-notify
+-rwxr-xr-x 1 root root   39336 May  8 16:38 systemd-sysusers
+-rwxr-xr-x 1 root root   55712 May  8 16:38 systemd-tmpfiles
+-rwxr-xr-x 1 root root   26968 May  8 16:38 systemd-tty-ask-password-agent
+-rwxr-xr-x 1 root root   23232 May  8 16:38 tailf
+-rwxr-xr-x 1 root root  420992 May  8 16:38 tar
+-rwxr-xr-x 1 root root   10680 May  8 16:38 tempfile
+-rwxr-xr-x 1 root root   93160 May  8 16:38 touch
+-rwxr-xr-x 1 root root   31464 May  8 16:38 true
+-rwxr-xr-x 1 root root  461560 May  8 16:38 udevadm
+-rwxr-xr-x 1 root root   14328 May  8 16:38 ulockmgr_server
+-rwsr-xr-x 1 root root   31720 May  8 16:38 umount
+-rwxr-xr-x 1 root root   35592 May  8 16:38 uname
+-rwxr-xr-x 2 root root    2301 May  8 16:38 uncompress
+-rwxr-xr-x 1 root root    2762 May  8 16:38 unicode_start
+-rwxr-xr-x 1 root root  130736 May  8 16:38 vdir
+-rwxr-xr-x 1 root root   31464 May  8 16:38 wdctl
+-rwxr-xr-x 1 root root     946 May  8 16:38 which
+lrwxrwxrwx 1 root root       8 Jul  3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 May  8 16:38 zcat
+-rwxr-xr-x 1 root root    1777 May  8 16:38 zcmp
+-rwxr-xr-x 1 root root    5764 May  8 16:38 zdiff
+-rwxr-xr-x 1 root root     140 May  8 16:38 zegrep
+-rwxr-xr-x 1 root root     140 May  8 16:38 zfgrep
+-rwxr-xr-x 1 root root    2131 May  8 16:38 zforce
+-rwxr-xr-x 1 root root    5929 May  8 16:38 zgrep
+-rwxr-xr-x 1 root root    2037 May  8 16:38 zless
+-rwxr-xr-x 1 root root    1910 May  8 16:38 zmore
+-rwxr-xr-x 1 root root    5047 May  8 16:38 znew
