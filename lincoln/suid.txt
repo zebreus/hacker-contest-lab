@@ -1,0 +1,14 @@
+$ find / -type f -perm -04000 -ls
+   789663     52 -rwsr-xr--   1 root     messagebus    51184 May 31 09:28 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+   791435    428 -rwsr-xr-x   1 root     root         436552 May 31 09:28 /usr/lib/openssh/ssh-keysign
+   133598     12 -rwsr-xr-x   1 root     root          10232 May 31 09:28 /usr/lib/eject/dmcrypt-get-device
+   787087     64 -rwsr-xr-x   1 root     root          63568 May 31 09:28 /usr/bin/su
+   786471     64 -rwsr-xr-x   1 root     root          63736 May 31 09:28 /usr/bin/passwd
+   789851     44 -rwsr-xr-x   1 root     root          44440 May 31 09:28 /usr/bin/newgrp
+   786468     44 -rwsr-xr-x   1 root     root          44528 May 31 09:28 /usr/bin/chsh
+   786467     56 -rwsr-xr-x   1 root     root          54096 May 31 09:28 /usr/bin/chfn
+   803355     36 -rwsr-xr-x   1 root     root          34896 May 31 09:28 /usr/bin/fusermount
+   131690     20 -rwSr-x---   1 root     lukas         16672 May 31 09:28 /usr/bin/system-update
+   787423     36 -rwsr-xr-x   1 root     root          34888 May 31 09:28 /usr/bin/umount
+   786470     84 -rwsr-xr-x   1 root     root          84016 May 31 09:28 /usr/bin/gpasswd
+   787421     48 -rwsr-xr-x   1 root     root          47184 May 31 09:28 /usr/bin/mount

@@ -1,0 +1,77 @@
+$ ps auxw
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.9 104980 10092 ?        Ss   May31   0:06 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    May31   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   May31   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   May31   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   May31   0:00 [kworker/0:0H-kblockd]
+root         7  0.0  0.0      0     0 ?        I    May31   0:04 [kworker/u2:0-events_unbound]
+root         8  0.0  0.0      0     0 ?        I<   May31   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    May31   0:01 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    May31   0:08 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        I    May31   0:00 [rcu_bh]
+root        12  0.0  0.0      0     0 ?        S    May31   0:01 [migration/0]
+root        14  0.0  0.0      0     0 ?        S    May31   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    May31   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        I<   May31   0:00 [netns]
+root        17  0.0  0.0      0     0 ?        S    May31   0:00 [kauditd]
+root        18  0.0  0.0      0     0 ?        S    May31   0:00 [khungtaskd]
+root        19  0.0  0.0      0     0 ?        S    May31   0:00 [oom_reaper]
+root        20  0.0  0.0      0     0 ?        I<   May31   0:00 [writeback]
+root        21  0.0  0.0      0     0 ?        S    May31   0:00 [kcompactd0]
+root        22  0.0  0.0      0     0 ?        SN   May31   0:00 [ksmd]
+root        23  0.0  0.0      0     0 ?        SN   May31   0:03 [khugepaged]
+root        24  0.0  0.0      0     0 ?        I<   May31   0:00 [crypto]
+root        25  0.0  0.0      0     0 ?        I<   May31   0:00 [kintegrityd]
+root        26  0.0  0.0      0     0 ?        I<   May31   0:00 [kblockd]
+root        27  0.0  0.0      0     0 ?        I<   May31   0:00 [edac-poller]
+root        28  0.0  0.0      0     0 ?        I<   May31   0:00 [devfreq_wq]
+root        29  0.0  0.0      0     0 ?        S    May31   0:00 [watchdogd]
+root        30  0.0  0.0      0     0 ?        S    May31   0:00 [kswapd0]
+root        48  0.0  0.0      0     0 ?        I<   May31   0:00 [kthrotld]
+root        49  0.0  0.0      0     0 ?        I<   May31   0:00 [ipv6_addrconf]
+root        59  0.0  0.0      0     0 ?        I<   May31   0:00 [kstrp]
+root        95  0.0  0.0      0     0 ?        I<   May31   0:00 [ata_sff]
+root        96  0.0  0.0      0     0 ?        S    May31   0:00 [scsi_eh_0]
+root        97  0.0  0.0      0     0 ?        I<   May31   0:00 [scsi_tmf_0]
+root        98  0.0  0.0      0     0 ?        S    May31   0:00 [scsi_eh_1]
+root        99  0.0  0.0      0     0 ?        I<   May31   0:00 [scsi_tmf_1]
+root       102  0.0  0.0      0     0 ?        S    May31   0:00 [scsi_eh_2]
+root       103  0.0  0.0      0     0 ?        I<   May31   0:00 [scsi_tmf_2]
+root       104  0.0  0.0      0     0 ?        I<   May31   0:04 [kworker/0:1H-kblockd]
+root       137  0.0  0.0      0     0 ?        I<   May31   0:00 [kworker/u3:0]
+root       139  0.0  0.0      0     0 ?        S    May31   0:08 [jbd2/sda1-8]
+root       140  0.0  0.0      0     0 ?        I<   May31   0:00 [ext4-rsv-conver]
+root       174  0.0  0.8  38348  8320 ?        Ss   May31   0:17 /lib/systemd/systemd-journald
+root       189  0.0  0.5  22100  5060 ?        Ss   May31   0:00 /lib/systemd/systemd-udevd
+root       238  0.0  0.0      0     0 ?        I<   May31   0:00 [ttm_swap]
+systemd+   288  0.0  0.6  93096  6376 ?        Ssl  May31   0:02 /lib/systemd/systemd-timesyncd
+root       309  0.0  0.3   6536  3716 ?        Ss   May31   4:59 /usr/sbin/qemu-ga
+root       311  0.0  0.4 221864  4264 ?        Ssl  May31   0:02 /usr/sbin/rsyslogd -n -iNONE
+root       313  0.0  0.7  19520  7136 ?        Ss   May31   0:01 /lib/systemd/systemd-logind
+root       314  0.0  0.2   8472  2648 ?        Ss   May31   0:00 /usr/sbin/cron -f
+message+   315  0.0  0.4   9236  4136 ?        Ss   May31   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfi
+root       345  0.0  0.1   5608  1368 tty1     Ss+  May31   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root       360  0.0  0.6  13816  6132 ?        Ss   May31   0:00 /usr/sbin/sshd -D -f /etc/ssh/mgmtsshd_config
+root       603  0.0  0.0      0     0 ?        I    May31   0:00 [kworker/u2:2-events_unbound]
+www-data  9226  0.0  2.0  29068 20376 ?        Ss   May31   1:22 /var/www/flask/flaskenv/bin/python3 /var/www/flask/flaskenv/bin/gun
+root      9299  0.0  0.1  61600  1708 ?        Ss   May31   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process 
+www-data  9300  0.0  0.5  62332  5580 ?        S    May31   1:11 nginx: worker process
+root     10161  0.0  0.3   9496  3668 ?        Ss   May31   0:00 /sbin/dhclient -4 -v -i -pf /run/dhclient.ens18.pid -lf /var/lib/dh
+root     26383  0.0  0.0      0     0 ?        I    Jun04   0:00 [kworker/0:1-ata_sff]
+www-data 26388  0.0  2.9  41680 29524 ?        S    Jun04   0:00 /var/www/flask/flaskenv/bin/python3 /var/www/flask/flaskenv/bin/gun
+www-data 26426  0.0  0.0      0     0 ?        Z    Jun04   0:00 [sh] <defunct>
+www-data 26432  0.0  0.0   2384   760 ?        S    Jun04   0:00 /bin/sh -c /bin/sh -c 'export PATH=/bin:/usr/bin/:/var/www/flask/fl
+www-data 26433  0.0  0.0   2384   756 ?        S    Jun04   0:00 /bin/sh -c export PATH=/bin:/usr/bin/:/var/www/flask/flaskenv/bin ;
+www-data 26434  0.0  0.2   5552  2168 ?        S    Jun04   0:00 script
+www-data 26435  0.0  0.0   2384   756 pts/0    Ss+  Jun04   0:00 sh -i
+root     26437  0.0  0.0      0     0 ?        I    Jun04   0:00 [kworker/0:0-ata_sff]
+www-data 26438  0.2  2.8  41680 28672 ?        S    Jun04   0:00 /var/www/flask/flaskenv/bin/python3 /var/www/flask/flaskenv/bin/gun
+www-data 26478  0.0  0.0   2384   760 ?        S    00:03   0:00 /bin/sh -c /bin/sh -c 'export PATH=/bin:/usr/bin/:/var/www/flask/fl
+www-data 26479  0.0  0.0   2384   764 ?        S    00:03   0:00 /bin/sh -c export PATH=/bin:/usr/bin/:/var/www/flask/flaskenv/bin ;
+www-data 26480  0.0  0.2   5552  2172 ?        S    00:03   0:00 script
+www-data 26481  0.0  0.0   2384   752 pts/1    Ss   00:03   0:00 sh -i
+www-data 26483  0.8  2.8  41680 28672 ?        S    00:04   0:00 /var/www/flask/flaskenv/bin/python3 /var/www/flask/flaskenv/bin/gun
+root     26484  0.0  0.0      0     0 ?        I    00:04   0:00 [kworker/0:2-events_power_efficient]
+root     26486  0.0  0.0      0     0 ?        I    00:04   0:00 [kworker/u2:1-events_unbound]
+www-data 26491  0.0  0.2  10628  2848 pts/1    R+   00:05   0:00 ps auxw

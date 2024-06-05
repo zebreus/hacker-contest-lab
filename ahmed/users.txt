@@ -1,7 +1,9 @@
 john
+john@connect.usd
+John
 root
+admin
+friends
+friend
 jeff
 user
-apache
-apache2
-admin

@@ -1,17 +1,17 @@
 // let middle = ["secure", "safe", "strong", "good"];
 // let middle = ["secure", "safe", "strong"];
-let middle = ["Secure"];
+let middle = ["secure", "safe"];
 // let prefixes = ["very", "super", "ultra", "mega", "most", "more", "extremly"];
-let prefixes = ["Very"];
+let prefixes = ["very", "super", "veryVery"];
 // let suffixes = ["2023", "2024", "2042", "2025", "2026"];
 let suffixes = ["2023", "2024"];
 // let susuffixes = ["!", "#", "$", "%", "&", "*", "+", "-", "/", "=", "?", "@"];
 // let susuffixes = ["!", "?", "."]
-let susuffixes = ["!", "?", "."];
+let susuffixes = ["!"];
 
 middle = middle.flatMap((prefix) => [
   prefix,
-  //   prefix.slice(0, 1).toUpperCase() + prefix.slice(1),
+  prefix.slice(0, 1).toUpperCase() + prefix.slice(1),
 ]);
 prefixes = prefixes.flatMap((prefix) => [
   prefix,
@@ -41,10 +41,10 @@ const getAllLeetspeakVariants = (word: string) => {
     s: "5",
     t: "7",
     z: "2",
-    "2": "Z",
+    // "2": "Z",
     "0": "O",
-    "4": "A",
-    "3": "E",
+    // "4": "A",
+    // "3": "E",
   };
   const leetVariants = new Set<string>();
   const recurse = (word: string, index: number) => {

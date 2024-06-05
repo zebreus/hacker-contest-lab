@@ -3,5 +3,4 @@
 3. Something about the website
 4. FTP misconfiguration to get the shadow file
 
-ABOR ACCT ALLO APPE CDUP CWD DELE EPRT EPSV FEAT HELP LIST MDTM MKD MODE NLST NOOP OPTS PASS PASV PORT PWD QUIT REIN REST RETR RMD RNFR RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD
-Response: XPWD XRMD
+The main site has a comment about `<!-- friends are always welcome -->`. I tried accessing the website under different hostnames, `friends.connect.usd` gives a login page. Now I am currently brutforcing the login page with a dictionary of variations on the old password and a few plausible usernames.

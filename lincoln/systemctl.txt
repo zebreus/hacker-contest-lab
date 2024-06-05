@@ -1,0 +1,100 @@
+$ systemctl
+UNIT                          LOAD   ACTIVE SUB       DESCRIPTION              
+proc-sys-fs-binfmt_misc.automount loaded active running   Arbitrary Executable File
+sys-devices-pci0000:00-0000:00:01.1-ata2-host1-target1:0:0-1:0:0:0-block-sr0.device loaded active plugged   QEMU_DVD-ROM             
+sys-devices-pci0000:00-0000:00:05.0-virtio1-host2-target2:0:0-2:0:0:0-block-sda-sda1.device loaded active plugged   QEMU_HARDDISK 1          
+sys-devices-pci0000:00-0000:00:05.0-virtio1-host2-target2:0:0-2:0:0:0-block-sda-sda2.device loaded active plugged   QEMU_HARDDISK 2          
+sys-devices-pci0000:00-0000:00:05.0-virtio1-host2-target2:0:0-2:0:0:0-block-sda-sda5.device loaded active plugged   QEMU_HARDDISK 5          
+sys-devices-pci0000:00-0000:00:05.0-virtio1-host2-target2:0:0-2:0:0:0-block-sda.device loaded active plugged   QEMU_HARDDISK            
+sys-devices-pci0000:00-0000:00:08.0-virtio2-virtio\x2dports-vport2p1.device loaded active plugged   /sys/devices/pci0000:00/0
+sys-devices-pci0000:00-0000:00:12.0-virtio3-net-ens18.device loaded active plugged   Virtio network device    
+sys-devices-platform-serial8250-tty-ttyS0.device loaded active plugged   /sys/devices/platform/ser
+sys-devices-platform-serial8250-tty-ttyS1.device loaded active plugged   /sys/devices/platform/ser
+sys-devices-platform-serial8250-tty-ttyS2.device loaded active plugged   /sys/devices/platform/ser
+sys-devices-platform-serial8250-tty-ttyS3.device loaded active plugged   /sys/devices/platform/ser
+sys-devices-virtual-misc-rfkill.device loaded active plugged   /sys/devices/virtual/misc
+sys-module-fuse.device        loaded active plugged   /sys/module/fuse         
+sys-subsystem-net-devices-ens18.device loaded active plugged   Virtio network device    
+-.mount                       loaded active mounted   Root Mount               
+dev-hugepages.mount           loaded active mounted   Huge Pages File System   
+dev-mqueue.mount              loaded active mounted   POSIX Message Queue File 
+proc-sys-fs-binfmt_misc.mount loaded active mounted   Arbitrary Executable File
+sys-fs-fuse-connections.mount loaded active mounted   FUSE Control File System 
+sys-kernel-debug-tracing.mount loaded active mounted   /sys/kernel/debug/tracing
+sys-kernel-debug.mount        loaded active mounted   Kernel Debug File System 
+systemd-ask-password-console.path loaded active waiting   Dispatch Password Request
+systemd-ask-password-wall.path loaded active waiting   Forward Password Requests
+init.scope                    loaded active running   System and Service Manage
+apparmor.service              loaded active exited    Load AppArmor profiles   
+console-setup.service         loaded active exited    Set console font and keym
+cron.service                  loaded active running   Regular background progra
+dbus.service                  loaded active running   D-Bus System Message Bus 
+flask.service                 loaded active running   Gunicorn instance to serv
+getty@tty1.service            loaded active running   Getty on tty1            
+ifup@ens18.service            loaded active exited    ifup for ens18           
+ifupdown-pre.service          loaded active exited    Helper to synchronize boo
+keyboard-setup.service        loaded active exited    Set the console keyboard 
+kmod-static-nodes.service     loaded active exited    Create list of required s
+mgmtsshd.service              loaded active running   HeroLab Management OpenBS
+networking.service            loaded active exited    Raise network interfaces 
+nginx.service                 loaded active running   A high performance web se
+qemu-guest-agent.service      loaded active running   QEMU Guest Agent         
+rsyslog.service               loaded active running   System Logging Service   
+systemd-journal-flush.service loaded active exited    Flush Journal to Persiste
+systemd-journald.service      loaded active running   Journal Service          
+systemd-logind.service        loaded active running   Login Service            
+systemd-modules-load.service  loaded active exited    Load Kernel Modules      
+systemd-random-seed.service   loaded active exited    Load/Save Random Seed    
+systemd-remount-fs.service    loaded active exited    Remount Root and Kernel F
+systemd-sysctl.service        loaded active exited    Apply Kernel Variables   
+systemd-sysusers.service      loaded active exited    Create System Users      
+systemd-timesyncd.service     loaded active running   Network Time Synchronizat
+systemd-tmpfiles-setup-dev.service loaded active exited    Create Static Device Node
+systemd-tmpfiles-setup.service loaded active exited    Create Volatile Files and
+systemd-udev-trigger.service  loaded active exited    udev Coldplug all Devices
+systemd-udevd.service         loaded active running   udev Kernel Device Manage
+systemd-update-utmp.service   loaded active exited    Update UTMP about System 
+systemd-user-sessions.service loaded active exited    Permit User Sessions     
+-.slice                       loaded active active    Root Slice               
+system-getty.slice            loaded active active    system-getty.slice       
+system.slice                  loaded active active    System Slice             
+user.slice                    loaded active active    User and Session Slice   
+dbus.socket                   loaded active running   D-Bus System Message Bus 
+syslog.socket                 loaded active running   Syslog Socket            
+systemd-fsckd.socket          loaded active listening fsck to fsckd communicati
+systemd-initctl.socket        loaded active listening initctl Compatibility Nam
+systemd-journald-audit.socket loaded active running   Journal Audit Socket     
+systemd-journald-dev-log.socket loaded active running   Journal Socket (/dev/log)
+systemd-journald.socket       loaded active running   Journal Socket           
+systemd-rfkill.socket         loaded active listening Load/Save RF Kill Switch 
+systemd-udevd-control.socket  loaded active running   udev Control Socket      
+systemd-udevd-kernel.socket   loaded active running   udev Kernel Socket       
+dev-disk-by\x2duuid-53b722a6\x2d318a\x2d4730\x2d8f34\x2db1800b746ee5.swap loaded active active    /dev/disk/by-uuid/53b722a
+basic.target                  loaded active active    Basic System             
+cryptsetup.target             loaded active active    Local Encrypted Volumes  
+getty.target                  loaded active active    Login Prompts            
+graphical.target              loaded active active    Graphical Interface      
+local-fs-pre.target           loaded active active    Local File Systems (Pre) 
+local-fs.target               loaded active active    Local File Systems       
+multi-user.target             loaded active active    Multi-User System        
+network.target                loaded active active    Network                  
+paths.target                  loaded active active    Paths                    
+remote-fs.target              loaded active active    Remote File Systems      
+slices.target                 loaded active active    Slices                   
+sockets.target                loaded active active    Sockets                  
+swap.target                   loaded active active    Swap                     
+sysinit.target                loaded active active    System Initialization    
+time-sync.target              loaded active active    System Time Synchronized 
+timers.target                 loaded active active    Timers                   
+apt-daily-upgrade.timer       loaded active waiting   Daily apt upgrade and cle
+apt-daily.timer               loaded active waiting   Daily apt download activi
+logrotate.timer               loaded active waiting   Daily rotation of log fil
+man-db.timer                  loaded active waiting   Daily man-db regeneration
+systemd-tmpfiles-clean.timer  loaded active waiting   Daily Cleanup of Temporar
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+91 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
