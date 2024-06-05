@@ -1,0 +1,44 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.log
+START_TIME: Wed Jun  5 19:42:58 2024
+URL_BASE: http://10.2.17.7/
+WORDLIST_FILES: /nix/store/1hdi008pdiprfpc802dj9ni5h2xq39g6-dirb-2.22/share/dirb/wordlists/big.txt
+OPTION: Not Stoping on warning messages
+
+-----------------
+
+GENERATED WORDS: 20458
+
+---- Scanning URL: http://10.2.17.7/ ----
++ http://10.2.17.7/Articles (CODE:200|SIZE:1368)
++ http://10.2.17.7/_articles (CODE:200|SIZE:1368)
++ http://10.2.17.7/_users (CODE:302|SIZE:0)
++ http://10.2.17.7/articles (CODE:200|SIZE:1368)
++ http://10.2.17.7/categories (CODE:302|SIZE:0)
+==> DIRECTORY: http://10.2.17.7/css/
++ http://10.2.17.7/favicon (CODE:200|SIZE:1782)
++ http://10.2.17.7/favicon.ico (CODE:200|SIZE:1782)
+==> DIRECTORY: http://10.2.17.7/img/
+==> DIRECTORY: http://10.2.17.7/js/
++ http://10.2.17.7/pages (CODE:302|SIZE:0)
++ http://10.2.17.7/server-status (CODE:403|SIZE:274)
++ http://10.2.17.7/users (CODE:302|SIZE:0)
+
+---- Entering directory: http://10.2.17.7/css/ ----
++ http://10.2.17.7/css/base (CODE:200|SIZE:167588)
++ http://10.2.17.7/css/cake (CODE:200|SIZE:8767)
++ http://10.2.17.7/css/custom (CODE:200|SIZE:125)
+
+---- Entering directory: http://10.2.17.7/img/ ----
+
+---- Entering directory: http://10.2.17.7/js/ ----
++ http://10.2.17.7/js/empty (CODE:200|SIZE:0)
+
+-----------------
+END_TIME: Wed Jun  5 19:58:53 2024
+DOWNLOADED: 81832 - FOUND: 14
