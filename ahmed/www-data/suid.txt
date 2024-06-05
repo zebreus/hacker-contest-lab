@@ -1,0 +1,13 @@
+   393236     44 -rwsr-xr-x   1 root     root        44016 May 22 12:20 /usr/bin/cat
+   401731    276 -rwsr-xr-x   1 root     root       281624 May 22 12:20 /usr/bin/sudo
+   393683     60 -rwsr-xr-x   1 root     root        59704 May 22 12:20 /usr/bin/mount
+   391793     64 -rwsr-xr-x   1 root     root        62672 May 22 12:20 /usr/bin/chfn
+   393687     36 -rwsr-xr-x   1 root     root        35128 May 22 12:20 /usr/bin/umount
+   426382     36 -rwsr-xr-x   1 root     root        35128 May 22 12:20 /usr/bin/fusermount3
+   391777     72 -rwsr-xr-x   1 root     root        72000 May 22 12:20 /usr/bin/su
+   391797     68 -rwsr-xr-x   1 root     root        68248 May 22 12:20 /usr/bin/passwd
+   391794     52 -rwsr-xr-x   1 root     root        52880 May 22 12:20 /usr/bin/chsh
+   395058     48 -rwsr-xr-x   1 root     root        48896 May 22 12:20 /usr/bin/newgrp
+   391796     88 -rwsr-xr-x   1 root     root        88496 May 22 12:20 /usr/bin/gpasswd
+   412192     52 -rwsr-xr--   1 root     messagebus    51272 May 22 12:20 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+   414229    640 -rwsr-xr-x   1 root     root         653888 May 22 12:20 /usr/lib/openssh/ssh-keysign

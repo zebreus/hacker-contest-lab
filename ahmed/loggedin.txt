@@ -1,0 +1,6 @@
+Hello and welcome to my Friends page in here you will find a list of all my firends:
+Sam Fisher
+Jack and Dexter
+Ezio Auditore
+Clementine and Lee
+if you want to write your friend's name to the file as well you can do that just insert the name here click add :D so we can all be friends
