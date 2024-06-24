@@ -1,0 +1,61 @@
+——————————————————————————————————————————————————————————————————————
+[30;1m___       ______________________________________________   __
+[30;1m__ |     / /__  __ \__  __ \__  ____/_  ____/_  __ \__  | / /
+[34;1m__ | /| / /__  /_/ /_  /_/ /_  __/  _  /    _  / / /_   |/ / 
+[34;1m__ |/ |/ / _  ____/_  _, _/_  /___  / /___  / /_/ /_  /|  /  
+[36;1m____/|__/  /_/     /_/ |_| /_____/  \____/  \____/ /_/ |_/  [0mv2.4.5
+
+[33;1m[!][0m Github:	 https://github.com/blackcrw/wprecon
+——————————————————————————————————————————————————————————————————————
+[32;1m[✔][0m Target:	 http://10.2.17.14/wordpress/
+[32;1m[✔][0m Started in:	 Wednesday Jun 19 22:55:17 2024
+
+[32;1m[✔][0m WordPress confirmed with 50.00% confidence!
+
+[32;1m[✔][0m WordPress Version:
+[37;1m    —[0m Version: 4.9.6 
+
+[35;1m[i][0m User Enumerate:
+
+[31;1m[✗][0m Unfortunately no user was found.
+
+[35;1m[i][0m Plugin Enumerate:
+
+[31;1m[✗][0m I couldn't find any plugins
+
+[35;1m[i][0m Theme Enumerate:
+
+[32;1m[✔][0m Name: twentyseventeen
+[37;1m    —[0m Found By: In the HTML of the index
+[37;1m    —[0m Version: 4.9.6
+  [37;1m    —[0m Found By: Version in the HTML code of the index
+  [31;1m    —[0m Confiance: [31;1m15%
+  [37;1m    —[0m Match:
+    [37;1m    —[0m wp-content/themes/twentyseventeen/style.css?ver=4.9.6
+[37;1m    —[0m Version: 3.7.3
+  [37;1m    —[0m Found By: Version in the HTML code of the index
+  [31;1m    —[0m Confiance: [31;1m15%
+  [37;1m    —[0m Match:
+    [37;1m    —[0m wp-content/themes/twentyseventeen/assets/js/html5.js?ver=3.7.3
+[37;1m    —[0m Version: 2.1.2
+  [37;1m    —[0m Found By: Version in the HTML code of the index
+  [31;1m    —[0m Confiance: [31;1m15%
+  [37;1m    —[0m Match:
+    [37;1m    —[0m wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.2
+
+[35;1m[i][0m Other interesting information:
+
+[32;1m[✔][0m Target information(s):
+[37;1m    —[0m Server: Apache/2.4.25 (Debian)
+[37;1m    —[0m WordPress Version: 4.9.6
+
+[32;1m[✔][0m Index Of's:
+[37;1m    —[0m http://10.2.17.14/wordpress/wp-content/uploads/
+
+[32;1m[✔][0m XML-RPC Enabled:
+[37;1m    —[0m Status: 405
+[37;1m    —[0m Confidence: 89%
+[37;1m    —[0m Found By: Direct Access
+[37;1m    —[0m Location: http://10.2.17.14/wordpress/xmlrpc.php 
+
+[32;1m[✔][0m Total requests: 23
