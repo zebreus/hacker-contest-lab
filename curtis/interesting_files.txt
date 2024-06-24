@@ -14,7 +14,9 @@ main.js
 /etc/ssh/authorized_keys.d/admin
 /etc/ssh/authorized_keys.d/ssh
 /etc/ssh/authorized_keys
-
+/dev/fb0
+/sys/class/graphics/fb0/virtual_size
+/etc/apache2/envvars
 /etc/passwd
 /etc/group
 /etc/hosts
