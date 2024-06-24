@@ -23,3 +23,6 @@ proc_files.log: proc_files.log.unsorted
 
 proc_files.txt: otherlist.sh
 	bash otherlist.sh
+
+linpeas.sh:
+    curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh > linpeas.sh
