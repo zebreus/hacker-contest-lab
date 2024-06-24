@@ -18,3 +18,4 @@ As far as I can see, this is only used as a pointer to port 5000
 6. The server needs to reload main.py. We can force a reload by crashing the server with an OOM error. The diamond_hands endpoint reads the entire file into memory, we just need to send enough data.
 7. Run `deno run --allow-all ./exploit.ts` to perform the steps to this point.
 8. After that you can run `bash revshell.sh` to start a reverse shell.
+9. For some reason the flask process has the cap_setsuid, so it can become root
