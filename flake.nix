@@ -53,6 +53,8 @@
           sqlmap
           wprecon
           wpscan
+          deno
+          wfuzz
         ];
       };
     });

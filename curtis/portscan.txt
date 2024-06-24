@@ -1,0 +1,22 @@
+#### TCP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-24 15:49 CEST
+Nmap scan report for 10.2.17.11
+Host is up (0.014s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+5000/tcp open  upnp
+
+Nmap done: 1 IP address (1 host up) scanned in 21.00 seconds
+#### UDP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-06-24 15:49 CEST
+Stats: 0:03:32 elapsed; 0 hosts completed (1 up), 1 undergoing UDP Scan
+UDP Scan Timing: About 28.03% done; ETC: 16:02 (0:09:04 remaining)
+Nmap scan report for 10.2.17.11
+Host is up (0.061s latency).
+All 1000 scanned ports on 10.2.17.11 are in ignored states.
+Not shown: 958 closed udp ports (port-unreach), 42 open|filtered udp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 962.52 seconds
