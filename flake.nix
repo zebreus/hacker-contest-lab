@@ -21,14 +21,14 @@
       name = "hacker-contest-qualification";
       packages.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          (pkgs.python3.withPackages (python-pkgs: [
-            python-pkgs.beautifulsoup4
-            python-pkgs.types-beautifulsoup4
-            python-pkgs.random2
-            python-pkgs.requests
-            python-pkgs.lxml
-            python-pkgs.lxml-stubs
-          ]))
+          # (pkgs.python3.withPackages (python-pkgs: [
+          #   python-pkgs.beautifulsoup4
+          #   python-pkgs.types-beautifulsoup4
+          #   python-pkgs.random2
+          #   python-pkgs.requests
+          #   python-pkgs.lxml
+          #   python-pkgs.lxml-stubs
+          # ]))
           (old-pkgs.python2.withPackages (python-pkgs: [ python-pkgs.requests ]))
           gnumake
           nixpkgs-fmt
