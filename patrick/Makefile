@@ -4,3 +4,6 @@ user:
 files:
 	mkdir -p files/home
 	scp -r user@10.2.17.16:/home/user files/home/user/
+
+unscramble: unscramble.c
+	gcc unscramble.c -o unscramble -g -fno-stack-protector -no-pie
