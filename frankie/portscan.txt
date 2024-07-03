@@ -1,0 +1,10 @@
+#### TCP SCAN ####
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-07-01 20:21 CEST
+Nmap scan report for 10.2.17.15
+Host is up (0.011s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+8080/tcp closed http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 104.55 seconds

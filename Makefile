@@ -1,4 +1,4 @@
-targets = alice heidi jack skylar ahmed ava lincoln sophie mina curtis
+targets = frankie patrick
 
 .PHONY: all portscan nmap_aggressive
 

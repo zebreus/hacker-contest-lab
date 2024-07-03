@@ -10,5 +10,5 @@ fi
 echo "#### TCP SCAN ####" >portscan.txt
 sudo nmap --exclude-ports 65535 -p0-65535 -sS "$ADDRESS" >>portscan.txt 2>&1
 
-echo "#### UDP SCAN ####" >>portscan.txt
-sudo nmap --exclude-ports 65535 -sU "$ADDRESS" >>portscan.txt 2>&1
+# echo "#### UDP SCAN ####" >>portscan.txt
+# sudo nmap --exclude-ports 65535 -sU "$ADDRESS" >>portscan.txt 2>&1

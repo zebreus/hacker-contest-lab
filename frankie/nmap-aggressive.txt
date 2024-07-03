@@ -1,0 +1,22 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-07-01 20:24 CEST
+Stats: 0:00:55 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 36.85% done; ETC: 20:26 (0:01:34 remaining)
+Nmap scan report for 10.2.17.15
+Host is up (0.013s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE  SERVICE    VERSION
+80/tcp   open   http       nginx 1.14.2
+|_http-server-header: nginx/1.14.2
+|_http-title: Site doesn't have a title (text/html;charset=UTF-8).
+8080/tcp closed http-proxy
+Aggressive OS guesses: Linux 5.0 (92%), Linux 5.0 - 5.4 (92%), Linux 4.15 - 5.8 (89%), HP P2000 G3 NAS device (89%), Linux 5.3 - 5.4 (89%), Linux 2.6.32 (89%), Linux 2.6.32 - 3.1 (88%), Infomir MAG-250 set-top box (88%), Ubiquiti AirMax NanoStation WAP (Linux 2.6.32) (88%), Linux 3.7 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT      ADDRESS
+1   13.25 ms 10.1.0.1
+2   13.79 ms 10.2.17.15
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 124.68 seconds
