@@ -7,3 +7,9 @@ files:
 
 unscramble: unscramble.c
 	gcc unscramble.c -o unscramble -g -fno-stack-protector -no-pie
+
+w1: files/home/user/write_to_blockchain_v1.c
+	gcc files/home/user/write_to_blockchain_v1.c -o ./w1 -g -Wno-format-security -fno-stack-protector -no-pie
+
+w2: files/home/user/write_to_blockchain_v2.c
+	gcc files/home/user/write_to_blockchain_v2.c -o ./w2 -g -Wno-format-security -fstack-protector
